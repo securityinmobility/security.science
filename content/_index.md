@@ -13,8 +13,12 @@ The goal is to consider IT security across the entire development and product li
 
 <div class="flex flex-wrap">
 {{< profile-card name="Prof. Dr. Hans-Joachim Hof" img="people/achim.webp" affiliation="Research Group Lead" >}}
-    <a href=""><img src="icons/file-pdf-solid.svg" style="height: 2em" /></a>
+    <a href="https://scholar.google.com/citations?user=Ge5HZp4AAAAJ"><img src="icons/file-pdf-solid.svg" style="height: 2em" /></a>
     <a href="https://insi.science"><img src="icons/globe-solid.svg" style="height: 2em" /></a>
+{{< /profile-card >}}
+
+{{< profile-card name="Prof. Patrizia Heinl" img="people/patrizia.webp" affiliation="" >}}
+    <a href="https://scholar.google.com/citations?user=wIwbvxQAAAAJ"><img src="icons/file-pdf-solid.svg" style="height: 2em" /></a>
 {{< /profile-card >}}
 
 {{< profile-card name="Dr. Kevin Gomez" img="people/kevin.webp" affiliation="Automotive Forensics" >}}
