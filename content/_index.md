@@ -9,7 +9,7 @@ With the increasing connectivity of vehicles and a growing amount of complex sof
 The research focus of Automotive Security examines holistic IT security for vehicles.
 The goal is to consider IT security across the entire development and product lifecycle of a vehicle, transcending functional groups.
 
-## Member
+## Members
 
 <div class="flex flex-wrap">
 {{< profile-card name="Prof. Dr. Hans-Joachim Hof" img="people/achim.webp" affiliation="Research Group Lead" >}}
