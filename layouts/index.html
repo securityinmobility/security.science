@@ -8,22 +8,11 @@
                 <source src="{{ .RelPermalink }}" type="video/mp4">
             {{ end }}
         </video>
-        {{ with resources.GetMatch "tesla-cover.jpg" }}
-            {{ with .Resize "1260x webp" }}
-            <meta property="og:image" content="{{ .Permalink }}">
-            {{ end }}
-        {{ end }}
         <div class="bg-black-30 h-inherit">
             {{ partial "menu.html" (dict "menuID" "main" "page" . "linkAttrs" (dict "class" "f8 fw5 no-underline link white") ) }}
             <div class="tc mt5 ph3">
-                {{ with .Site.Params.event }}
-                <meta itemprop="name" property="og:title" content="{{ .name | transform.Plainify }}" />
-                <meta itemprop="description" property="og:description" name="description" content="{{ .description }}">
-                <h1 class="f1-l f2-m white mb4 lh-title">{{ .name | safe.HTML }}</h1>
-                {{ with .subtitle  }}
-                <h3 class="f4 fw2 white-90 mb4">{{ . | safe.HTML }}</h3>
-                {{ end }}
-                {{ end }}
+                <h1 class="f1-l f2-m white mb4 lh-title">Cybersecurity Research</h1>
+                <h3 class="f4 fw2 white-90 mb4">(Automotive-)Cybersecurity Research Group at Technische Hochschule Ingolstadt</h3>
             </div>
         </div>
     </header>

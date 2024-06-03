@@ -1,14 +1,9 @@
-#baseURL = "https://security.science/"
+baseURL = "https://security.science/"
 languageCode = "en-us"
 title = "THI Cybersecurity Research Group"
 disableKinds = [ "section", "taxonomy" ]
 ignoreErrors = ["error-disable-taxonomy"]
 theme = [ "hugo-snap-gallery" ]
-
-[params]
-  [params.event]
-      name = "Cybersecurity Research"
-      subtitle = "(Automotive-)Cybersecurity Research Group at Technische Hochschule Ingolstadt"
 
 [markup.goldmark]
     [markup.goldmark.renderer]
