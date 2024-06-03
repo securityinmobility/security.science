@@ -1,8 +1,8 @@
-FROM klakegg/hugo:alpine as build
+FROM klakegg/hugo:ext as build
 WORKDIR /opt
 
 COPY . .
-RUN apk add git && git submodule init && git submodule update
+RUN git submodule init && git submodule update
 RUN hugo
 
 
