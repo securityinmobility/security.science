@@ -1,0 +1,20 @@
+<!doctype html>
+<html itemscope itemtype="https://schema.org/Event" lang="en">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    {{ block "header" . }}
+      {{ partial "header.html" . }}
+    {{ end }}
+
+    <main class="mb4 mw8 pa2 center sans-serif lh-copy">
+      {{ block "main" . }}
+      {{ end }}
+    </main>
+
+    {{ block "footer" . }}
+      {{ partial "footer.html" . }}
+    {{ end }}
+  </body>
+</html>

@@ -1,0 +1,49 @@
+{{- $page := .page }}
+{{- $linkAttrs := default dict .linkAttrs }}
+{{- $menuID := .menuID }}
+
+{{- with index site.Menus $menuID }}
+<nav class="dt w-100 mw8 center">
+    <div class="dtc-l dtr w5 pv3 pl2 left-l center">
+        <a href="/" class="dib">
+            {{ with resources.GetMatch "sim-logo.jpg" }}
+                {{ with .Resize "x50 webp" }}
+                <img src="{{ .Permalink }}" alt="Site Logo" />
+                {{ end }}
+            {{ end }}
+        </a>
+    </div>
+    <menu class="dtc-l dtr tc tr-l v-mid pt0 mt0">
+        {{- partial "inline/menu/walk.html" (dict "page" $page "linkAttrs" $linkAttrs "menuEntries" .) }}
+    </menu>
+</nav>
+{{- end }}
+
+{{- define "partials/inline/menu/walk.html" }}
+    {{- $page := .page }}
+    {{- $linkAttrs := .linkAttrs }}
+    {{- range .menuEntries }}
+        {{- $attrs := merge (dict "href" .URL "class" "f8 fw5 no-underline link black hover-blue") $linkAttrs }}
+        {{- if $page.IsMenuCurrent .Menu . }}
+            {{- $attrs = merge $attrs (dict "aria-current" "page") }}
+        {{- else if $page.HasMenuCurrent .Menu .}}
+            {{- $attrs = merge $attrs (dict "class" "ancestor" "aria-current" "true") }}
+        {{- end }}
+
+
+        <li class="dib pt0 pt3-l pa3 pa2 {{- with .Children}} dropdown {{ end }}">
+        <a
+            {{- range $k, $v := $attrs }}
+                {{- with $v }}
+                    {{- printf " %s=%q" $k $v | safeHTMLAttr }}
+                {{- end }}
+            {{- end -}}
+        >{{ or (T .Identifier) .Name | safeHTML }}</a>
+        {{- with .Children }}
+            <menu class="list v-mid tc right-0 pt2 bg-near-white ba b--white-90 pl0 pr0">
+            {{- partial "inline/menu/walk.html" (dict "page" $page "linkAttrs" (dict) "menuEntries" .) }}
+            </menu>
+        {{- end }}
+        </li>
+    {{- end }}
+{{- end }}

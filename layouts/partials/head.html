@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+<meta property="og:author" name="author" content="{{ .Site.Params.event.name | transform.Plainify }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ .Page.Permalink }}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+{{ hugo.Generator }}
+
+<title>{{ $.Site.Title }} - {{ .Page.Title }}</title>
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+{{ with resources.Get "tachyons.min.css" | fingerprint "sha256" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+{{ end }}
+{{ with resources.Get "main.scss" | resources.ToCSS | minify | fingerprint "sha256" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+{{ end }}
+<base href="{{ .Site.BaseURL }}">

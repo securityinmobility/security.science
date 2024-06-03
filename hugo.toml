@@ -1,0 +1,24 @@
+#baseURL = "https://security.science/"
+languageCode = "en-us"
+title = "CSCS"
+disableKinds = [ "section", "taxonomy" ]
+ignoreErrors = ["error-disable-taxonomy"]
+theme = [ "hugo-snap-gallery" ]
+
+[params]
+  [params.event]
+      name = "Cybersecurity Research"
+      subtitle = "(Automotive-)Cybersecurity Research Group at Technische Hochschule Ingolstadt"
+
+[markup.goldmark]
+    [markup.goldmark.renderer]
+    unsafe = true
+
+[markup.goldmark.parser.attribute]
+    block = true
+
+[menus]
+  [[menus.main]]
+    name = 'Member'
+    URL = '#member'
+    weight = 30
