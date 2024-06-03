@@ -1,6 +1,6 @@
 #baseURL = "https://security.science/"
 languageCode = "en-us"
-title = "CSCS"
+title = "THI Cybersecurity Research Group"
 disableKinds = [ "section", "taxonomy" ]
 ignoreErrors = ["error-disable-taxonomy"]
 theme = [ "hugo-snap-gallery" ]
