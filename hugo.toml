@@ -17,3 +17,7 @@ theme = [ "hugo-snap-gallery", "hugo-cloak-email" ]
     name = 'Members'
     URL = '#members'
     weight = 30
+  [[menus.main]]
+    name = 'Career'
+    URL = '#open-positions'
+    weight = 40
