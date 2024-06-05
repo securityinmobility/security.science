@@ -4,15 +4,6 @@
 
 {{- with index site.Menus $menuID }}
 <nav class="dt w-100 mw8 center">
-    <div class="dtc-l dtr w5 pv3 pl2 left-l center">
-        <a href="/" class="dib">
-            {{ with resources.GetMatch "sim-logo.jpg" }}
-                {{ with .Resize "x50 webp" }}
-                <img src="{{ .Permalink }}" alt="Site Logo" />
-                {{ end }}
-            {{ end }}
-        </a>
-    </div>
     <menu class="dtc-l dtr tc tr-l v-mid pt0 mt0">
         {{- partial "inline/menu/walk.html" (dict "page" $page "linkAttrs" $linkAttrs "menuEntries" .) }}
     </menu>
