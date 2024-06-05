@@ -2,7 +2,15 @@
 {{- $img := .Get "img" -}}
 <article class="flex-auto mi4 w-30-ns w-40-m w-100 br3 pa3 pa4-ns ma1 mv3 ba b--black-10">
   <div class="tc">
-    <img src="{{ $img }}" style="object-fit: cover; height: 180px; width: 150px;" class="br-100 w4 dib" title="{{ $name }}">
+    {{ with .Page.Resources.Get $img }}
+      {{ if eq .MediaType.SubType "svg" }}
+        <img src="{{ .RelPermalink }}" style="object-fit: cover; height: 180px; width: 150px;" class="br-100 w4 dib" alt="{{ $name }}">
+      {{ else }}
+        {{ with .Resize "720x webp picture q90" }}
+          <img src="{{ .RelPermalink }}" style="object-fit: cover; height: 180px; width: 150px;" class="br-100 w4 dib" alt="{{ $name }}">
+        {{ end }}
+      {{ end }}
+    {{ end }}
     <h1 class="f4 mb1">{{ $name }}</h1>
     {{ with .Get "affiliation" }}
       <h2 class="f6 mt0">{{ . }}</h3>
