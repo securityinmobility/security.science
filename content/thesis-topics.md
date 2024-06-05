@@ -1,6 +1,6 @@
 +++
 menu = "main"
-weight = 50
+weight = 60
 title = "Thesis Topics"
 +++
 
