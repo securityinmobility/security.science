@@ -60,12 +60,12 @@ The goal is to consider IT security across the entire development and product li
 {{< profile-card name="Vishwa Vasu" img="people/vasu.webp" affiliation="Security of Charging Stations" >}}
     <a href="https://vazdefense.com/"><img src="icons/globe-solid.svg" style="height: 2em" /></a>
     <a href="https://github.com/vvvasu"><img src="icons/github.svg" style="height: 2em" /></a>
-    <a href="https://www.linkedin.com/in/parulgupta182"><img src="icons/linkedin.svg" style="height: 2em" /></a>
+    <a href="https://www.linkedin.com/in/vishwa-vasu"><img src="icons/linkedin.svg" style="height: 2em" /></a>
 {{< /profile-card >}}
 
 {{< profile-card name="Parul Gupta" img="people/no-photo.svg" affiliation="Code Security using AI" >}}
     <a href="https://orcid.org/0009-0009-7414-1360"><img src="icons/file-lines-solid.svg" style="height: 2em" /></a>
-    <a href="https://www.linkedin.com/in/vishwa-vasu"><img src="icons/linkedin.svg" style="height: 2em" /></a>
+    <a href="https://www.linkedin.com/in/parulgupta182"><img src="icons/linkedin.svg" style="height: 2em" /></a>
 {{< /profile-card >}}
 
 {{< profile-card name="Lukas Eder" img="people/no-photo.svg" affiliation="Automated Pentesting using AI" >}}
