@@ -20,7 +20,9 @@ The goal is to consider IT security across the entire development and product li
 {{< /profile-card >}}
 
 {{< profile-card name="Prof. Patrizia Heinl" img="people/patrizia.webp" affiliation="AI Security and Intrusion Detection in Healthcare" >}}
+    <a href="https://orcid.org/0009-0001-1594-2119"><img src="icons/file-lines-solid.svg" style="height: 2em" /></a>
     <a href="https://scholar.google.com/citations?user=wIwbvxQAAAAJ"><img src="icons/google-scholar.svg" style="height: 2em" /></a>
+    <a href="https://www.linkedin.com/in/patrizia-heinl/"><img src="icons/linkedin.svg" style="height: 2em" /></a>
 {{< /profile-card >}}
 
 {{< profile-card name="Dr. Kevin Gomez" img="people/kevin.webp" affiliation="Automotive Forensics" >}}
