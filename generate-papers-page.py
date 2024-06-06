@@ -50,11 +50,7 @@ for orcid in orcids:
             else:
                 raise ValueError("unknown date format!")
         except ValueError:
-            print(f"could not parse date: {date_split}", file=sys.stderr)
-            continue
-
-        if "url" not in work:
-            # ignore these for now. Without an author and date this is useless
+            print(f"could not parse date: {date_split} for {work['title']}", file=sys.stderr)
             continue
 
         if work["url"] in known_urls:
