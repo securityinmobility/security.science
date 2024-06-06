@@ -65,12 +65,19 @@ The goal is to consider IT security across the entire development and product li
 
 {{< profile-card name="Parul Gupta" img="people/no-photo.svg" affiliation="Code Security using AI" >}}
     <a href="https://orcid.org/0009-0009-7414-1360"><img src="icons/file-lines-solid.svg" style="height: 2em" /></a>
+    <a href="https://github.com/parulgupta182"><img src="icons/github.svg" style="height: 2em" /></a>
     <a href="https://www.linkedin.com/in/parulgupta182"><img src="icons/linkedin.svg" style="height: 2em" /></a>
 {{< /profile-card >}}
 
 {{< profile-card name="Lukas Eder" img="people/no-photo.svg" affiliation="Automated Pentesting using AI" >}}
     <a href="https://github.com/eder-lukas"><img src="icons/github.svg" style="height: 2em" /></a>
 {{< /profile-card >}}
+
+{{< profile-card name="Jenny Hofbauer" img="people/jenny.jpg" affiliation="Automated Pentesting using AI" >}}
+    <a href="https://orcid.org/0009-0003-6679-3672"><img src="icons/file-lines-solid.svg" style="height: 2em" /></a>
+    <a href="https://www.linkedin.com/in/jenny-hofbauer-8a9a60265"><img src="icons/linkedin.svg" style="height: 2em" /></a>
+{{< /profile-card >}}
+
 </div>
 
 ## Open Positions
