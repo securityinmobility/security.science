@@ -7,12 +7,12 @@ RUN python generate-papers-page.py
 
 
 
-FROM klakegg/hugo:ext as build
+FROM alpine:latest as build
 WORKDIR /opt
+RUN apk add --no-cache hugo
 
 COPY . .
 COPY --from=publications /opt/content/publications.md /opt/content/publications.md
-RUN git submodule init && git submodule update
 RUN hugo
 
 
