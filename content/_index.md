@@ -73,7 +73,7 @@ The goal is to consider IT security across the entire development and product li
     <a href="https://github.com/eder-lukas"><img src="icons/github.svg" style="height: 2em" /></a>
 {{< /profile-card >}}
 
-{{< profile-card name="Jenny Hofbauer" img="people/jenny.jpg" affiliation="Automated Pentesting using AI" >}}
+{{< profile-card name="Jenny Hofbauer" img="people/jenny.jpg" affiliation="Vehicle Security Operations Center" >}}
     <a href="https://orcid.org/0009-0003-6679-3672"><img src="icons/file-lines-solid.svg" style="height: 2em" /></a>
     <a href="https://github.com/0xFFD700"><img src="icons/github.svg" style="height: 2em" /></a>
     <a href="https://www.linkedin.com/in/jenny-hofbauer-8a9a60265"><img src="icons/linkedin.svg" style="height: 2em" /></a>
