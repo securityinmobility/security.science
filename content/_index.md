@@ -25,7 +25,7 @@ The goal is to consider IT security across the entire development and product li
     <a href="https://www.linkedin.com/in/patrizia-heinl/"><img src="icons/linkedin.svg" style="height: 2em" /></a>
 {{< /profile-card >}}
 
-{{< profile-card name="Dr. Kevin Gomez" img="people/kevin.webp" affiliation="Automotive Forensics" >}}
+{{< profile-card name="Dr. Kevin Mayer" img="people/kevin.webp" affiliation="Automotive Forensics" >}}
     <a href="https://orcid.org/0000-0002-5597-3913"><img src="icons/file-lines-solid.svg" style="height: 2em" /></a>
     <a href="https://scholar.google.com/citations?user=z2DJRIkAAAAJ"><img src="icons/google-scholar.svg" style="height: 2em" /></a>
     <a href="https://k-gomez.com/"><img src="icons/globe-solid.svg" style="height: 2em" /></a>
