@@ -66,7 +66,6 @@ for orcid in orcids:
 
         if work['url'] is None:
             known_works.append(work['title'])
-            print(work)
         else:
             known_works.append(work["url"])
 
