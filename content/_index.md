@@ -52,6 +52,7 @@ The goal is to consider IT security across the entire development and product li
 
 {{< profile-card name="Jakob Löw" img="people/jakob.jpg" affiliation="Security of Charging Stations" >}}
     <a href="https://scholar.google.com/citations?user=UN-OIvMAAAAJ"><img src="icons/google-scholar.svg" alt="google scholar icon" style="height: 2em" /></a>
+    <a href="https://orcid.org/0009-0006-7088-8684"><img src="icons/file-lines-solid.svg" alt="file icon" style="height: 2em" /></a>
     <a href="https://jakobloew.me"><img src="icons/globe-solid.svg" alt="globe icon" style="height: 2em" /></a>
     <a href="https://github.com/M4GNV5"><img src="icons/github.svg" alt="github icon" style="height: 2em" /></a>
     <a href="https://www.linkedin.com/in/jakob-l%C3%B6w-1814431b4/"><img src="icons/linkedin.svg" alt="linkedin icon" style="height: 2em" /></a>
