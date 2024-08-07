@@ -29,3 +29,13 @@ You will usually be supervised by the PhD students and graded + supervised by Pr
 - Analysis of the attack surface of infotainment systems via the broadcast interface [[2]](https://arstechnica.com/cars/2022/02/radio-station-snafu-in-seattle-bricks-some-mazda-infotainment-systems/)
 - Analysis of log files from automotive control units for forensic use
 - Fuzzing of Bluetooth implementations (A2DP, PBAP, SDAP, ...) 
+
+### Digital Forensics Topics 
+
+| Title | Short description | Contact person |
+| ----- | ----------------- | -------------- | 
+| File carving using Large Language Models (LLMs) | File carving of different memory dumps and using LLMs to identify traces. Can be in the automotive or general IT domain. | {{<cloakemail display="kevin.mayer@carissma.eu" address="kevin.mayer@carissma.eu">}} |
+| Characterization of data classes in digital vehicle forensics | Analysis of various data classes and categorization of those. The data classes where published in a paper before. | {{<cloakemail display="kevin.mayer@carissma.eu" address="kevin.mayer@carissma.eu">}} |
+| Explainability in vehicle forensics | Exporing if *explainable AI* is suitable for digital forensics and the requirements attached to court-ready digital forensics investigations. | {{<cloakemail display="kevin.mayer@carissma.eu" address="kevin.mayer@carissma.eu">}} |
+| Digital forensic analysis of a third-party infotainment system | Commissioning of third-party infotainment systems and performing digital forensics investigations on those. | {{<cloakemail display="kevin.mayer@carissma.eu" address="kevin.mayer@carissma.eu">}} |
+
