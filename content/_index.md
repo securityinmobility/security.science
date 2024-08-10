@@ -59,7 +59,7 @@ The goal is to consider IT security across the entire development and product li
 {{< /profile-card >}}
 
 {{< profile-card name="Vishwa Vasu" img="people/vasu.webp" affiliation="Security of Charging Stations" >}}
-    <a href="https://vazdefense.com/"><img src="icons/globe-solid.svg" alt="globe icon" style="height: 2em" /></a>
+    <a href="https://vdefense.tech/"><img src="icons/globe-solid.svg" alt="globe icon" style="height: 2em" /></a>
     <a href="https://github.com/vvvasu"><img src="icons/github.svg" alt="github icon" style="height: 2em" /></a>
     <a href="https://www.linkedin.com/in/vishwa-vasu"><img src="icons/linkedin.svg" alt="linkedin icon" style="height: 2em" /></a>
 {{< /profile-card >}}
