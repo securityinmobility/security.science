@@ -78,7 +78,7 @@ for orcid in orcids:
 
 papers.sort(key=lambda x: -x["order"])
 
-with open("content/publications.md", "w+") as fd:
+with open("content/publications.md", "w+", encoding="utf8") as fd:
     fd.write(page_head)
     for paper in papers:
         if paper['url']:
