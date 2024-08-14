@@ -28,7 +28,7 @@ The goal is to consider IT security across the entire development and product li
 {{< profile-card name="Dr. Kevin Mayer" img="people/kevin.webp" affiliation="Automotive Forensics" >}}
     <a href="https://orcid.org/0000-0002-5597-3913"><img src="icons/file-lines-solid.svg" alt="file icon" style="height: 2em" /></a>
     <a href="https://scholar.google.com/citations?user=z2DJRIkAAAAJ"><img src="icons/google-scholar.svg" alt="google scholar icon" style="height: 2em" /></a>
-    <a href="https://k-gomez.com/"><img src="icons/globe-solid.svg" alt="globe icon" style="height: 2em" /></a>
+    <a href="https://kmyr.de/"><img src="icons/globe-solid.svg" alt="globe icon" style="height: 2em" /></a>
 {{< /profile-card >}}
 
 {{< profile-card name="Dominik Bayerl" img="people/no-photo.svg" affiliation="Automotive Firmware Security Testing" >}}
