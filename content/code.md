@@ -6,7 +6,7 @@ draft: false
 
 # Code
 
-The following is list of selected repositories and corresponding code.
+The following is a list of selected repositories and corresponding code.
 
 
 ## SELFY VSOC
