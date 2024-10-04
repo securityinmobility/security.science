@@ -81,15 +81,3 @@ The goal is to consider IT security across the entire development and product li
 {{< /profile-card >}}
 
 </div>
-
-## Open Positions
-
-Want to become a cybersecurity researcher?
-We publish open positions at:
-https://www.thi.de/en/career/who-we-are-looking-for/
-
-Still a student?
-We regularly have open positions for students who want to step foot into academia and/or work on cybersecurity topics. Make sure to {{<cloakemail display="send us an E-Mail!" address="jakob.loew@thi.de">}} No cover letters please, CV is enough!
-
-Looking to write your bachelor / master thesis?
-Check [our thesis topic ideas list]({{< ref "/thesis-topics" >}}) or bring your own.

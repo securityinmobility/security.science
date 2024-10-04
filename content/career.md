@@ -1,8 +1,18 @@
 +++
 menu = "main"
 weight = 60
-title = "Thesis Topics"
+title = "Career & Thesis Topics"
 +++
+
+# Open Positions
+
+Want to become a cybersecurity researcher?
+We publish open positions at:
+https://www.thi.de/en/career/who-we-are-looking-for/
+
+Still a student?
+We regularly have open positions for students who want to step foot into academia and/or work on cybersecurity topics. Make sure to {{<cloakemail display="send us an E-Mail!" address="jakob.loew@thi.de">}}.
+No cover letters please, CV is enough!
 
 # Thesis Topics
 
