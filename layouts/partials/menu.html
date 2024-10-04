@@ -4,7 +4,7 @@
 
 {{- with index site.Menus $menuID }}
 <nav class="dt w-100 mw8 center">
-    <menu class="dtc-l dtr tc tr-l v-mid pt0 mt0">
+    <menu class="dtc-l dtr tc tc-l v-mid pt0 mt0">
         {{- partial "inline/menu/walk.html" (dict "page" $page "linkAttrs" $linkAttrs "menuEntries" .) }}
     </menu>
 </nav>
