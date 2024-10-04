@@ -1,12 +1,12 @@
----
-title: "Code"
-description: ""
-draft: false
----
++++
+menu = "main"
+weight = 40
+title = "Open Source"
++++
 
-# Code
+# Open Source
 
-The following is a list of selected repositories and corresponding code.
+The following is a list of selected repositories and corresponding code published as free/libre open source software on our github organization.
 
 
 ## SELFY VSOC
