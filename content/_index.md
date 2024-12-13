@@ -25,6 +25,12 @@ The goal is to consider IT security across the entire development and product li
     <a href="https://www.linkedin.com/in/patrizia-heinl/"><img src="icons/linkedin.svg" alt="linkedin icon" style="height: 2em" /></a>
 {{< /profile-card >}}
 
+{{< profile-card name="Prof. Dr. Thomas Hutzelmann" img="people/thomas.webp" affiliation="Software Analysis" >}}
+    <a href="https://scholar.google.com/citations?user=apK2wVsAAAAJ"><img src="icons/google-scholar.svg" alt="google scholar icon" style="height: 2em" /></a>
+    <a href="https://github.com/hutzelmann"><img src="icons/github.svg" alt="github icon" style="height: 2em" /></a>
+    <a href="https://www.linkedin.com/in/thomas-hutzelmann/"><img src="icons/linkedin.svg" alt="linkedin icon" style="height: 2em" /></a>
+{{< /profile-card >}}
+
 {{< profile-card name="Dominik Bayerl" img="people/no-photo.svg" affiliation="Automotive Firmware Security Testing" >}}
     <a href="https://orcid.org/0000-0003-0439-066X"><img src="icons/file-lines-solid.svg" alt="file icon" style="height: 2em" /></a>
     <a href="https://scholar.google.com/citations?user=2pyEapAAAAAJ"><img src="icons/google-scholar.svg" alt="google scholar icon" style="height: 2em" /></a>

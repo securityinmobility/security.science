@@ -41,3 +41,6 @@ You will usually be supervised by the PhD students and graded + supervised by on
 | Automotive | Analysis of the attack surface of infotainment systems via the broadcast interface [[2]](https://arstechnica.com/cars/2022/02/radio-station-snafu-in-seattle-bricks-some-mazda-infotainment-systems/) | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
 | Automotive | Analysis of log files from automotive control units for forensic use | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
 | Automotive | Fuzzing of Bluetooth implementations (A2DP, PBAP, SDAP, ...)  | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
+| Software Analysis | A Systematic Comparison and Analysis of Typesetting System Projects | {{<cloakemail display="Thomas Hutzelmann" address="thomas.hutzelmann@thi.de">}} |
+| Software Analysis | A Systematic Mapping Study of Intrusion Detection Approaches for Automotive Networks | {{<cloakemail display="Thomas Hutzelmann" address="thomas.hutzelmann@thi.de">}} |
+| Software Analysis | On Using Large Language Models for Compositional Program Analysis | {{<cloakemail display="Thomas Hutzelmann" address="thomas.hutzelmann@thi.de">}} |

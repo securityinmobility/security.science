@@ -36,6 +36,7 @@ orcids = [
     '0009-0005-0529-0996',
     '0009-0009-7414-1360',
     '0009-0006-7088-8684',
+    '0000-0002-2871-3905',
 ]
 
 #orcid_auth = OrcidAuthentication(client_id=client_id, client_secret=client_secret)
