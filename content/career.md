@@ -22,6 +22,7 @@ You will usually be supervised by the PhD students and graded + supervised by on
 
 | Category | Short description | Contact person |
 | -------- | ----------------- | -------------- |
+| Software Analysis | [Binary Fuzzing Harness Generation]({{< ref "/thesis/binary-fuzzing.md" >}}) | {{<cloakemail display="Dominik Bayerl" address="dominik.bayerl@carissma.eu">}} |
 | Web Security | Analysis of backend services of sharing providers | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
 | Web Security | Identifying JavaScript libraries in bundled files | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
 | Low-level Hacking | Firmware analysis of an electric micro-mobility vehicle (E-Scooter) | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
