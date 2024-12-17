@@ -2,7 +2,7 @@
 {{- $img := .Get "img" -}}
 <article class="flex-auto mi4 w-30-ns w-40-m w-100 br3 pa3 pa4-ns ma1 mv3 ba b--black-10">
   <div class="tc">
-    {{ with .Page.Resources.Get $img }}
+    {{ with resources.Get $img }}
       {{ if eq .MediaType.SubType "svg" }}
         <img src="{{ .RelPermalink }}" style="object-fit: cover; height: 180px; width: 150px;" class="br-100 w4 dib" alt="{{ $name }}">
       {{ else }}
