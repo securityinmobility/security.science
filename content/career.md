@@ -32,9 +32,6 @@ You will usually be supervised by the PhD students and graded + supervised by on
 | Compilers | (Cybersecurity enhancing )Compiler Engineering | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
 | Compilers | (Cybersecurity enhancing )JIT-Compilation Library Engineering [[1]](https://www.gnu.org/software/libjit/) | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
 | Compilers | Comparative analysis of different Intermediate Representation (IR) models for their suitability for platform-independent static analysis | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
-| Digital Forensics | Analysis of various data classes and categorization of those. The data classes where published in a paper before. | {{<cloakemail display="Kevin Mayer" address="kevin.mayer@carissma.eu">}} |
-| Digital Forensics | Exporing if *explainable AI* is suitable for digital forensics and the requirements attached to court-ready digital forensics investigations. | {{<cloakemail display="Kevin Mayer" address="kevin.mayer@carissma.eu">}} |
-| Digital Forensics | Commissioning of third-party infotainment systems and performing digital forensics investigations on those. | {{<cloakemail display="Kevin Mayer" address="kevin.mayer@carissma.eu">}} |
 | Automotive | Concept for intercepting Cellular-V2X communication | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
 | Automotive | Analysis of the attack surface of infotainment systems via the Bluetooth interface | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
 | Automotive | Analysis of the attack surface of infotainment systems via the USB interface | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
