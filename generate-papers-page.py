@@ -1,4 +1,5 @@
 import sys
+from datetime import date
 
 #from pyorcid import OrcidAuthentication, Orcid
 from pyorcid import OrcidScrapper
@@ -26,17 +27,20 @@ oriented contributions by members of our research group.
 """
 
 # generate this using `cat content/_index.md | grep -Eo 'orcid.org/[0-9A-Z-]+'`
+# start and end dates added manually allowing to exclude publications before someone
+# joined or after someone left the research group
 orcids = [
-    '0000-0002-6930-9271',
-    '0009-0001-1594-2119',
-    '0000-0002-5597-3913',
-    '0000-0003-0439-066X',
-    '0000-0003-2441-7962',
-    '0009-0006-4383-5683',
-    '0009-0005-0529-0996',
-    '0009-0009-7414-1360',
-    '0009-0006-7088-8684',
-    '0000-0002-2871-3905',
+    ('0000-0002-6930-9271', '1970-01-01', '9999-12-01'),
+    ('0009-0001-1594-2119', '1970-01-01', '9999-12-01'),
+    ('0000-0003-0439-066X', '1970-01-01', '9999-12-01'),
+    ('0000-0003-2441-7962', '1970-01-01', '9999-12-01'),
+    ('0009-0005-0529-0996', '1970-01-01', '9999-12-01'),
+    ('0009-0006-7088-8684', '1970-01-01', '9999-12-01'),
+    ('0009-0009-7414-1360', '1970-01-01', '9999-12-01'),
+    ('0009-0003-6679-3672', '1970-01-01', '9999-12-01'),
+    ('0009-0000-8446-7641', '1970-01-01', '9999-12-01'),
+    ('0000-0002-5597-3913', '1970-01-01', '2024-12-31'), # Kevin Mayer
+    ('0009-0006-4383-5683', '1970-01-01', '2024-12-31'), # Marco Michl
 ]
 
 #orcid_auth = OrcidAuthentication(client_id=client_id, client_secret=client_secret)
@@ -44,9 +48,11 @@ orcids = [
 
 known_works = []
 papers = []
-for orcid in orcids:
+for orcid, start_date, end_date in orcids:
     #orcid = Orcid(orcid_id=orcid, orcid_access_token=access_token, state="public")
     orcid = OrcidScrapper(orcid)
+    start_date = date.fromisoformat(start_date)
+    end_date = date.fromisoformat(end_date)
     for work in orcid.works()[0]:
         date_split = work['publication-date'].split('/')
         try:
@@ -62,13 +68,17 @@ for orcid in orcids:
             print(f"could not parse date: {date_split} for {work['title']}", file=sys.stderr)
             continue
 
+        publication_date = date.fromisoformat(f"{year}-{month or 6:02d}-15")
+        if publication_date > end_date or publication_date < start_date:
+            continue
+
         if work['url'] in known_works or work['title'] in known_works:
             continue
 
         if work['url'] is None:
             known_works.append(work['title'])
         else:
-            known_works.append(work["url"])
+            known_works.append(work['url'])
 
         papers.append({
             "order": year * 100 + month,
