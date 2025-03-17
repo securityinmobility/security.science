@@ -70,12 +70,6 @@ The goal is to consider IT security across the entire development and product li
     <a href="https://github.com/eder-lukas"><img src="icons/github.svg" alt="github icon" style="height: 2em" /></a>
 {{< /profile-card >}}
 
-{{< profile-card name="Jenny Hofbauer" img="people/jenny.jpg" affiliation="Vehicle Security Operations Center" >}}
-    <a href="https://orcid.org/0009-0003-6679-3672"><img src="icons/file-lines-solid.svg" alt="file icon" style="height: 2em" /></a>
-    <a href="https://github.com/0xFFD700"><img src="icons/github.svg" alt="github icon" style="height: 2em" /></a>
-    <a href="https://www.linkedin.com/in/jenny-hofbauer-8a9a60265"><img src="icons/linkedin.svg" alt="linkedin icon" style="height: 2em" /></a>
-{{< /profile-card >}}
-
 {{< profile-card name="Claudius Laves" img="people/no-photo.svg" affiliation="Security and Data Privacy in Data Spaces" >}}
     <a href="https://orcid.org/0009-0000-8446-7641"><img src="icons/file-lines-solid.svg" alt="file icon" style="height: 2em" /></a>
     <a href="https://github.com/Cloudy261"><img src="icons/github.svg" alt="github icon" style="height: 2em" /></a>
@@ -105,5 +99,11 @@ The goal is to consider IT security across the entire development and product li
 
 {{< profile-card name="Marco Michl" img="people/marco.webp" affiliation="Automotive Computational Trust, Decentralized Trust" >}}
     <a href="https://orcid.org/0009-0006-4383-5683"><img src="icons/file-lines-solid.svg" alt="file icon" style="height: 2em" /></a>
+{{< /profile-card >}}
+
+{{< profile-card name="Jenny Hofbauer" img="people/no-photo.svg" affiliation="Vehicle Security Operations Center" >}}
+    <a href="https://orcid.org/0009-0003-6679-3672"><img src="icons/file-lines-solid.svg" alt="file icon" style="height: 2em" /></a>
+    <a href="https://github.com/0xFFD700"><img src="icons/github.svg" alt="github icon" style="height: 2em" /></a>
+    <a href="https://www.linkedin.com/in/jenny-hofbauer-8a9a60265"><img src="icons/linkedin.svg" alt="linkedin icon" style="height: 2em" /></a>
 {{< /profile-card >}}
 </div>
