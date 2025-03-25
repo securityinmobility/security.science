@@ -28,6 +28,7 @@ The goal is to consider IT security across the entire development and product li
 {{< profile-card name="Prof. Dr. Thomas Hutzelmann" img="people/thomas.webp" affiliation="Software Analysis" >}}
     <a href="https://scholar.google.com/citations?user=apK2wVsAAAAJ"><img src="icons/google-scholar.svg" alt="google scholar icon" style="height: 2em" /></a>
     <a href="https://github.com/hutzelmann"><img src="icons/github.svg" alt="github icon" style="height: 2em" /></a>
+    <a href="https://moodle.thi.de/course/view.php?id=9409"><img src="icons/globe-solid.svg" alt="globe icon" style="height: 2em" /></a>
     <a href="https://www.linkedin.com/in/thomas-hutzelmann/"><img src="icons/linkedin.svg" alt="linkedin icon" style="height: 2em" /></a>
 {{< /profile-card >}}
 
