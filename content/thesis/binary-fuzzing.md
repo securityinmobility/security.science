@@ -3,7 +3,7 @@ title = "Binary Fuzzing Harness Generation"
 author = "Dominik Bayerl"
 keywords = ['Software Analysis', 'Binary Analysis']
 date = 2024-12-16
-expiryDate = 2025-04-01
+expiryDate = 2025-10-01
 +++
 
 <div>
