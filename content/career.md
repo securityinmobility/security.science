@@ -30,12 +30,7 @@ You will usually be supervised by the PhD students and graded + supervised by on
 | Charging | ISO15118 charging protocol pentesting | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
 | Charging | ISO15118 charging protocol fuzzing | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
 | Charging | ISO15118 charging protocol implementation fingerprinting | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
-| Web Security | Analysis of backend services of sharing providers | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
 | Web Security | Identifying JavaScript libraries in bundled files | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
-| Low-level Hacking | Firmware analysis of an electric micro-mobility vehicle (E-Scooter) | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
-| Low-level Hacking | Protocol analysis of an electric micro-mobility vehicle (E-Scooter) | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
-| Low-level Hacking | Firmware analysis of shared micro-mobility vehicles (E-Scooters) | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
-| Low-level Hacking | Protocol analysis of shared micro-mobility vehicles (E-Scooters) | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
 | Compilers | (Cybersecurity enhancing )Compiler Engineering | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
 | Compilers | (Cybersecurity enhancing )JIT-Compilation Library Engineering [[1]](https://www.gnu.org/software/libjit/) | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
 | Compilers | Comparative analysis of different Intermediate Representation (IR) models for their suitability for platform-independent static analysis | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
