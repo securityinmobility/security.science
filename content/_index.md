@@ -26,6 +26,7 @@ The goal is to consider IT security across the entire development and product li
 {{< /profile-card >}}
 
 {{< profile-card name="Prof. Dr. Thomas Hutzelmann" img="people/thomas.webp" affiliation="Software Analysis" >}}
+    <a href="https://orcid.org/0000-0002-2871-3905"><img src="icons/file-lines-solid.svg" alt="file icon" style="height: 2em" /></a>
     <a href="https://scholar.google.com/citations?user=apK2wVsAAAAJ"><img src="icons/google-scholar.svg" alt="google scholar icon" style="height: 2em" /></a>
     <a href="https://github.com/hutzelmann"><img src="icons/github.svg" alt="github icon" style="height: 2em" /></a>
     <a href="https://moodle.thi.de/course/view.php?id=9409"><img src="icons/globe-solid.svg" alt="globe icon" style="height: 2em" /></a>
