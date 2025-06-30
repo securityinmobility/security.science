@@ -20,7 +20,7 @@
 {{ with resources.Get "tachyons.min.css" | fingerprint "sha256" }}
     <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
 {{ end }}
-{{ with resources.Get "main.scss" | resources.ToCSS | minify | fingerprint "sha256" }}
+{{ with resources.Get "main.scss" | css.Sass | minify | fingerprint "sha256" }}
     <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
 {{ end }}
 <base href="{{ .Site.BaseURL }}">
