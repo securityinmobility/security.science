@@ -88,6 +88,7 @@ The goal is to consider IT security across the entire development and product li
 {{< /profile-card >}}
 
 {{< profile-card name="Henning Ullrich" img="people/no-photo.svg" affiliation="Secure Quantum Infrastructure" >}}
+    <a href="https://orcid.org/0009-0002-3261-6486"><img src="icons/file-lines-solid.svg" alt="file icon" style="height: 2em" /></a>
     <a href="https://github.com/hullrich"><img src="icons/github.svg" alt="github icon" style="height: 2em" /></a>
     <a href="https://www.linkedin.com/in/henning-ullrich-2797b329b/"><img src="icons/linkedin.svg" alt="linkedin icon" style="height: 2em" /></a>
 {{< /profile-card >}}
