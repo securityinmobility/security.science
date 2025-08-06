@@ -72,7 +72,7 @@ The goal is to consider IT security across the entire development and product li
     <a href="https://github.com/eder-lukas"><img src="icons/github.svg" alt="github icon" style="height: 2em" /></a>
 {{< /profile-card >}}
 
-{{< profile-card name="Claudius Laves" img="people/no-photo.svg" affiliation="Security and Data Privacy in Data Spaces" >}}
+{{< profile-card name="Claudius Laves" img="people/claudi.png" affiliation="Security and Data Privacy in Data Spaces" >}}
     <a href="https://orcid.org/0009-0000-8446-7641"><img src="icons/file-lines-solid.svg" alt="file icon" style="height: 2em" /></a>
     <a href="https://github.com/Cloudy261"><img src="icons/github.svg" alt="github icon" style="height: 2em" /></a>
     <a href="https://de.linkedin.com/in/claudius-laves-01a48817b"><img src="icons/linkedin.svg" alt="linkedin icon" style="height: 2em" /></a>

@@ -72,13 +72,13 @@ for orcid, start_date, end_date in orcids:
         if publication_date > end_date or publication_date < start_date:
             continue
 
-        if work['url'] in known_works or work['title'] in known_works:
+        if (publication_date, work['url']) in known_works or (publication_date, work['title']) in known_works:
             continue
 
-        if work['url'] is None:
-            known_works.append(work['title'])
-        else:
-            known_works.append(work['url'])
+        
+        known_works.append((publication_date, work['title']))
+        if work['url'] is not None:
+            known_works.append((publication_date, work['url']))
 
         papers.append({
             "order": year * 100 + month,
