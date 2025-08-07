@@ -38,7 +38,8 @@ The goal is to consider IT security across the entire development and product li
     <a href="https://scholar.google.com/citations?user=2pyEapAAAAAJ"><img src="icons/google-scholar.svg" alt="google scholar icon" style="height: 2em" /></a>
 {{< /profile-card >}}
 
-{{< profile-card name="Tina Volkersdorfer" img="people/tina.webp" affiliation="Attack and Adversary Modeling" >}}
+{{< profile-card name="Tina Volkersdorfer" img="people/tina.webp" affiliation="Threat, Attack and Adversary Modeling" >}}
+    <a href="https://scholar.google.com/citations?user=y5oDUOkAAAAJ"><img src="icons/google-scholar.svg" alt="google scholar icon" style="height: 2em" /></a>
     <a href="https://orcid.org/0000-0003-2441-7962"><img src="icons/file-lines-solid.svg" alt="file icon" style="height: 2em" /></a>
     <a href="https://www.linkedin.com/in/tina-v-418437251"><img src="icons/linkedin.svg" alt="linkedin icon" style="height: 2em" /></a>
 {{< /profile-card >}}
@@ -72,7 +73,8 @@ The goal is to consider IT security across the entire development and product li
     <a href="https://github.com/eder-lukas"><img src="icons/github.svg" alt="github icon" style="height: 2em" /></a>
 {{< /profile-card >}}
 
-{{< profile-card name="Claudius Laves" img="people/claudi.png" affiliation="Security and Data Privacy in Data Spaces" >}}
+{{< profile-card name="Claudius Laves" img="people/claudi.png" affiliation="Leveraging Fingerprinting for Cybersecurity" >}}
+    <a href="https://scholar.google.com/citations?user=1CMuwlMAAAAJ"><img src="icons/google-scholar.svg" alt="google scholar icon" style="height: 2em" /></a>
     <a href="https://orcid.org/0009-0000-8446-7641"><img src="icons/file-lines-solid.svg" alt="file icon" style="height: 2em" /></a>
     <a href="https://github.com/Cloudy261"><img src="icons/github.svg" alt="github icon" style="height: 2em" /></a>
     <a href="https://de.linkedin.com/in/claudius-laves-01a48817b"><img src="icons/linkedin.svg" alt="linkedin icon" style="height: 2em" /></a>
