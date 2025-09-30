@@ -96,6 +96,11 @@ The goal is to consider IT security across the entire development and product li
     <a href="https://www.linkedin.com/in/henning-ullrich-2797b329b/"><img src="icons/linkedin.svg" alt="linkedin icon" style="height: 2em" /></a>
 {{< /profile-card >}}
 
+{{< profile-card name="Virginia Schellenberg" img="people/virginia.png" affiliation="Agentic Penetration Testing" >}}
+    <a href="https://github.com/vis9494"><img src="icons/github.svg" alt="github icon" style="height: 2em" /></a>
+    <a href="https://www.linkedin.com/in/virginia-schellenberg-69ba26363/"><img src="icons/linkedin.svg" alt="linkedin icon" style="height: 2em" /></a>
+{{< /profile-card >}}
+
 </div>
 
 ## Alumni 
