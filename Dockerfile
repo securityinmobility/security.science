@@ -1,18 +1,11 @@
-FROM python:3-alpine as publications
+FROM python:3-alpine as build
 WORKDIR /opt
-RUN mkdir /opt/content
+COPY . .
+
 RUN pip install pyorcid
-COPY generate-papers-page.py .
 RUN python generate-papers-page.py
 
-
-
-FROM alpine:latest as build
-WORKDIR /opt
 RUN apk add --no-cache hugo
-
-COPY . .
-COPY --from=publications /opt/content/publications.md /opt/content/publications.md
 RUN hugo
 
 
