@@ -37,5 +37,4 @@ You will usually be supervised by the PhD students and graded + supervised by on
 | Software Analysis | A Systematic Comparison and Analysis of Typesetting System Projects | {{<cloakemail display="Thomas Hutzelmann" address="thomas.hutzelmann@thi.de">}} |
 | Software Analysis | A Systematic Mapping Study of Intrusion Detection Approaches for Automotive Networks | {{<cloakemail display="Thomas Hutzelmann" address="thomas.hutzelmann@thi.de">}} |
 | Software Analysis | On Using Large Language Models for Compositional Program Analysis | {{<cloakemail display="Thomas Hutzelmann" address="thomas.hutzelmann@thi.de">}} |
-| Security Analysis / Reverse Engineering | Security Analysis of THI Student ID Cards | {{<cloakemail display="Claudius Laves" address="claudius.laves@carissma.eu">}} |
 | Security Software Engineering | Design and Implementation of an ISO/SAE 21434 Threat Analysis and Risk Assessment Modeling Tool | {{<cloakemail display="Claudius Laves" address="claudius.laves@carissma.eu">}} |
