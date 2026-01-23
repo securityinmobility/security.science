@@ -23,7 +23,7 @@ You will usually be supervised by the PhD students and graded + supervised by on
 | Category | Short description | Contact person |
 | -------- | ----------------- | -------------- |
 | Software Analysis | [Binary Fuzzing Harness Generation]({{< ref "/thesis/binary-fuzzing.md" >}}) | {{<cloakemail display="Dominik Bayerl" address="dominik.bayerl@carissma.eu">}} |
-| Charging | Building a fake electric vehicle for (pen-)testing charging stations | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
+| Artificial Intelligence | Using image recognition to identify charging stations in street view images. | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
 | Charging | Analysis of different charging stations, their certificates, encryption and protocol capabilities | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
 | Charging | Analysis of Volkswagens proprietary bidirectional charging protocol | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
 | Charging | Analysis of Teslas proprietary charging protocol | {{<cloakemail display="Jakob Löw" address="jakob.loew@carissma.eu">}} |
