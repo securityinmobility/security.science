@@ -1,8 +1,7 @@
 baseURL = "https://security.science/"
-languageCode = "en-us"
+locale = "en-us"
 title = "THI Cybersecurity Research Group"
-disableKinds = [ "taxonomy" ]
-ignoreErrors = ["error-disable-taxonomy"]
+disableKinds = [ "taxonomy", "section" ]
 theme = [ "hugo-snap-gallery", "hugo-cloak-email" ]
 
 [security]
