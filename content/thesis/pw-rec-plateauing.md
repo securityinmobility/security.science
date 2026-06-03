@@ -23,7 +23,7 @@ Password recovery sessions rely on a sequence of attack strategies such as dicti
 - Define and implement metrics for real-time solve rate monitoring
 - Develop a detection algorithm for identifying significant rate drops
 - Design a decision mechanism for dynamic strategy adaptation
-- Evaluate the system against realistic password datasets (e.g. RockYou, etc..)
+- Evaluate the system against realistic password datasets (e.g., RockYou, etc.)
 
 ## Requirements
 - Machine learning & time-series analysis (anomaly detection, trend analysis)
