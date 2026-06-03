@@ -2,8 +2,10 @@
 title = "Binary Fuzzing Harness Generation"
 author = "Dominik Bayerl"
 keywords = ['Software Analysis', 'Binary Analysis']
-date = 2024-12-16
+date = 2026-06-03
 +++
+
+# Binary Fuzzing Harness Generation
 
 <div>
     <span class="db">Published: {{< date.inline >}} {{ .Page.Date | time.Format ":date_medium" }} {{< /date.inline >}}</span>
