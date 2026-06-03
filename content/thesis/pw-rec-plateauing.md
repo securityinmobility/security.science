@@ -1,5 +1,5 @@
 +++
-title = "Intelligent Detection of Decreasing Solve Rates in Password Recovery Sessions and Adjustment of Recovery Strategies"
+title = "Intelligent Detection of Decreasing Solve Rates and Adjustment of Password Recovery Strategies"
 author = "Claudius Laves"
 keywords = ['Password Recovery', 'Password Recovery Strategies']
 date = 2026-06-03
