@@ -37,5 +37,5 @@ You will usually be supervised by the PhD students and graded + supervised by on
 | Software Analysis | A Systematic Comparison and Analysis of Typesetting System Projects | {{<cloakemail display="Thomas Hutzelmann" address="thomas.hutzelmann@thi.de">}} |
 | Software Analysis | A Systematic Mapping Study of Intrusion Detection Approaches for Automotive Networks | {{<cloakemail display="Thomas Hutzelmann" address="thomas.hutzelmann@thi.de">}} |
 | Software Analysis | On Using Large Language Models for Compositional Program Analysis | {{<cloakemail display="Thomas Hutzelmann" address="thomas.hutzelmann@thi.de">}} |
-| Password Recovery | Intelligent Detection of decreasing Solverates in Password Recovery Sessions and Adjustment of Recovery Strategies | {{<cloakemail display="Claudius Laves" address="claudius.laves@carissma.eu">}} |
-| Password Recovery | On Using LLMs for enriching Password Recovery Strategies | {{<cloakemail display="Claudius Laves" address="claudius.laves@carissma.eu">}} |
+| Password Recovery | [Intelligent Detection of Decreasing Solve Rates and Adjustment of Password Recovery Strategies]({{< ref "/thesis/pw-rec-plateauing.md" >}}) | {{<cloakemail display="Claudius Laves" address="claudius.laves@carissma.eu">}} |
+| Password Recovery | [On Using LLMs for enriching Password Recovery Strategies]({{< ref "/thesis/llm-osint.md" >}}) | {{<cloakemail display="Claudius Laves" address="claudius.laves@carissma.eu">}} |
