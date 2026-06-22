@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<h1 class="f2 fw6">Blog</h1>
+
+{{ with .Content }}
+{{ . }}
+{{ end }}
+
+<ul class="list pl0">
+  {{ range .RegularPages.ByDate.Reverse }}
+  <li class="mb4 pb4 bb b--light-gray">
+    <a class="link dark-blue hover-blue db f4 fw6 mb1" href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <time class="f6 gray db mb2" datetime="{{ .Date.Format "2006-01-02" }}">
+      {{ .Date.Format "2 January 2006" }}
+    </time>
+    {{ with .Params.authors }}
+    <span class="f6 gray db mb2">by {{ if gt (len .) 2 }}{{ delimit (sort .) ", " ", and " }}{{ else }}{{ delimit (sort .) " and " }}{{ end }}</span>
+    {{ end }}
+    {{ with .Params.summary }}
+    <p class="mt2 mb3">{{ . }}</p>
+    {{ end }}
+    <a class="link f6 fw6 dark-blue hover-blue" href="{{ .RelPermalink }}">Read More →</a>
+  </li>
+  {{ else }}
+  <li class="gray">No posts are currently available.</li>
+  {{ end }}
+</ul>
+
+{{ end }}

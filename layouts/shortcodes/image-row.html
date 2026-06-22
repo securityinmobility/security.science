@@ -1,0 +1,8 @@
+<div class="flex items-center" style="gap: 1rem;">
+  {{ with resources.Get (.Get "img1") }}
+  <img src="{{ .RelPermalink }}" style="flex: 1; min-width: 0;">
+  {{ end }}
+  {{ with resources.Get (.Get "img2") }}
+  <img src="{{ .RelPermalink }}" style="flex: 1; min-width: 0;">
+  {{ end }}
+</div>

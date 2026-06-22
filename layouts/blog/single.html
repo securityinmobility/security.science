@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<article>
+  <h1 class="f2 fw6">{{ .Title }}</h1>
+  <div class="f6 gray mb4">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+    {{ with .Params.authors }}
+    <span>· by {{ if gt (len .) 2 }}{{ delimit (sort .) ", " ", and " }}{{ else }}{{ delimit (sort .) " and " }}{{ end }}</span>
+    {{ end }}
+  </div>
+  <div class="lh-copy tj">
+    {{ .Content }}
+  </div>
+</article>
+
+{{ end }}

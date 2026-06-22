@@ -1,0 +1,25 @@
+<div class="relative mb4">
+  {{ with .Get "date" }}
+  <div class="absolute br-100 bg-dark-blue" style="left: -1.4rem; top: 0.3rem; width: 0.75rem; height: 0.75rem;"></div>
+  <time class="f6 b dark-blue db mb1">{{ . }}</time>
+  {{ end }}
+  {{ with .Get "title" }}
+  <h3 class="f5 fw6 mt0 mb1">{{ . }}</h3>
+  {{ end }}
+  <div class="flex items-start">
+    {{ with .Get "img" }}
+    {{ with resources.Get . }}
+    {{ if eq .MediaType.SubType "svg" }}
+    <img src="{{ .RelPermalink }}" class="br2 mr3 flex-none" style="width: 110px; height: 140px; object-fit: cover; object-position: top center;">
+    {{ else }}
+    {{ with .Resize "240x webp picture q90" }}
+    <img src="{{ .RelPermalink }}" class="br2 mr3 flex-none" style="width: 110px; height: 140px; object-fit: cover; object-position: top center;">
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    <div class="flex-auto">
+      <div class="f5 lh-copy">{{ .Inner | markdownify }}</div>
+    </div>
+  </div>
+</div>
