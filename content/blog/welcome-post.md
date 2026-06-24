@@ -27,31 +27,33 @@ Having introduced the group as a whole, we would now like to give each of our me
 
 {{< timeline >}}
 {{< timeline-event date="2019" title="Prof. Dr.-Ing. Hans-Joachim Hof founded the research group" img="people/achim.webp" >}}
-The THI Cybersecurity Research Group was founded by **Professor Hof** at the THI. **He did not submit his questionnaire yet.**
+The THI Cybersecurity Research Group was founded by **Professor Hof** at the THI.
 {{< /timeline-event >}}
 {{< timeline-event title="Dominik Bayerl joined the research group" img="people/no-photo.svg" >}}
 **Dominik Bayerl**
 {{< /timeline-event >}}
 {{< timeline-event title="Tina Volkersdorfer joined the research group" img="people/tina.webp" >}}
-**Tina Volkersdorfer**
+**Tina**
 {{< /timeline-event >}}
 {{< timeline-event date="2021" title="Julian Blümke joined the research group" img="people/julian.jpg" >}}
-**Julian Blümke**
+Doctoral researcher **Julian** works in the project [REBORN](https://reborn-project.eu/) where he is focused on developing a security architecture for a battery system, both for communication within the battery and for the interface between the battery and a cloud server, as well as the secure transition of the battery management system from its first to its second life. What surprised him most about working in research is how much of his time goes into communication and persuasion, convincing stakeholders outside the security sector of the necessity of security features. He would advise anyone starting out to get their academic tool chain clear and set up before diving into their work. And when it comes to research, he keeps in mind that all that glitters is not gold.
+
+**His research as a film genre**: A mix of documentary, drama, tragedy, comedy, and hopefully something with a happy ending.
 {{< /timeline-event >}}
 {{< timeline-event title="Jakob Löw joined the research group" img="people/jakob.jpg" >}}
-**Jakob Löw**
+**Jakob** [eSiLa](https://www.esila.bayern/)
 {{< /timeline-event >}}
 {{< timeline-event date="2023" title="Professor Patrizia Heinl joined the research group" img="people/patrizia.webp" >}}
 **Professor Heinl**
 {{< /timeline-event >}}
 {{< timeline-event date="2024" title="Lukas Eder joined the research group" img="people/no-photo.svg" >}}
-**Lukas Eder**
+**Lukas Eder** [eSiLa](https://www.esila.bayern/)
 {{< /timeline-event >}}
 {{< timeline-event title="Vishwa Vasu joined the research group" img="people/vasu.webp" >}}
-**Vishwa Vasu**
+**Vishwa Vasu** [eSiLa](https://www.esila.bayern/)
 {{< /timeline-event >}}
 {{< timeline-event title="Claudius Laves joined the research group" img="people/claudi.png" >}}
-**Claudius Laves**
+**Claudius Laves** [iBattMan](https://ibattman.eu/)
 {{< /timeline-event >}}
 {{< timeline-event title="Parul Gupta joined the research group" img="people/no-photo.svg" >}}
 **Parul Gupta**
@@ -66,7 +68,7 @@ The THI Cybersecurity Research Group was founded by **Professor Hof** at the THI
 **Lea Achter**
 {{< /timeline-event >}}
 {{< timeline-event date="2025" title="Henning Ullrich joined the research group" img="people/henning.png" >}}
-**Henning Ullrich**
+**Henning Ullrich** [SQuIRRL](https://osm.hpi.de/squirrl/)
 {{< /timeline-event >}}
 {{< timeline-event title="Virginia Schellenberg joined the research group" img="people/virginia.jpg" >}}
 **Virginia** is a research associate in the group, with KOREA21434 as her main project. In her work, she focuses on LLM-based multi-agent systems, applying them both to the automated penetration testing of vehicles and to the implementation of a RAG system using AI agents. She did not expect communication skills and a confident presence to play such a significant role in her day-to-day work, but has come to see them as just as important as technical expertise. Looking back, she considers completing her Master's directly after her Bachelor's one of the best decisions she made, as it kept her momentum going. What she did not anticipate, however, is how quickly three years will probably go by when working on a dissertation.
