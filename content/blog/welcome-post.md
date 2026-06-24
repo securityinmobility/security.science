@@ -53,7 +53,9 @@ Doctoral researcher **Julian** works in the project [REBORN](https://reborn-proj
 **Vishwa Vasu** [eSiLa](https://www.esila.bayern/)
 {{< /timeline-event >}}
 {{< timeline-event title="Claudius Laves joined the research group" img="people/claudi.png" >}}
-**Claudius Laves** [iBattMan](https://ibattman.eu/)
+**Claudius** works on the EU-funded [iBattMan](https://ibattman.eu/) project as a doctoral researcher, where he develops new cybersecurity concepts for next-generation Battery Management Systems. He is candid about his reservations when it comes to Systematic Literature Reviews, acknowledging that while they are necessary and valuable, he has not warmed up to the method just yet. By nature a night owl, working full-time has taught him to rise early so he can make the most of his afternoons and evenings. When asked what advice he would give his younger self, he laughs off the question, saying it feels like he is still at the beginning himself and hoping his future self will magically appear with some tips.
+
+**The best decision in his academic career**: Taking opportunities and not chickening out.
 {{< /timeline-event >}}
 {{< timeline-event title="Parul Gupta joined the research group" img="people/no-photo.svg" >}}
 **Parul Gupta**
