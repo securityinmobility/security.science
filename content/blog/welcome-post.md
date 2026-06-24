@@ -52,7 +52,9 @@ Doctoral researcher **Julian** works on the project [REBORN](https://reborn-proj
 **Lukas Eder** [eSiLa](https://www.esila.bayern/)
 {{< /timeline-event >}}
 {{< timeline-event title="Vishwa Vasu joined the research group" img="people/vasu.webp" >}}
-**Vishwa Vasu** [eSiLa](https://www.esila.bayern/)
+Doctoral researcher **Vasu** also works on the [eSiLa](https://www.esila.bayern/) project, where he investigates how the ISO 15118 communication interface between electric vehicles and charging infrastructure can be attacked, monitored, and hardened. As a former SOC analyst, he brings a practical perspective to his research that helps him understand security problems on a deeper level. He did not expect communication and patience to play such a central role in his work, as research rarely moves in a straight line. His advice is to document everything from the beginning, because the path to a result matters just as much as the result itself, which is also why he thinks negative results and failed experiments deserve more recognition. He adds that cybersecurity is ultimately about more than attacks and tools, as the most interesting problems tend to appear where technology and human decisions meet.
+
+**What keeps him awake at night:** How many small decisions shape the direction of a life, rather than a single big event. A chain of tiny questions that suddenly feel very important when everything is quiet.
 {{< /timeline-event >}}
 {{< timeline-event title="Parul Gupta joined the research group" img="people/no-photo.svg" >}}
 **Parul Gupta**
