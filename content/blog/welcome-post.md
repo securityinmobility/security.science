@@ -30,18 +30,20 @@ Having introduced the group as a whole, we would now like to give each of our me
 The THI Cybersecurity Research Group was founded by **Professor Hof** at the THI.
 {{< /timeline-event >}}
 {{< timeline-event title="Dominik Bayerl joined the research group" img="people/no-photo.svg" >}}
-**Dominik Bayerl**
+
 {{< /timeline-event >}}
 {{< timeline-event title="Tina Volkersdorfer joined the research group" img="people/tina.webp" >}}
-**Tina**
+In her project [PLIADES](https://www.pliades-project.eu/), doctoral researcher **Tina** focuses on security and privacy challenges, including traceability, threat analysis and risk assessment, and identity management across data spaces. Her PhD research extends this further, exploring how threat analysis for automotive risk assessment can be made more efficient and less prone to subjective interpretation. She believes that the most important habits a researcher can develop are simply getting started, discussing results regularly with a supervisor, and actively seeking feedback. At the same time, she has come to recognize that research can be hindered from the outside, whether by stakeholders withholding relevant data or by a lack of transparency in peer review.
+
+**Who shaped her thinking the most**: Nutritionist Niko Rittenau and his clear communication of scientific findings and willingness to revise his own positions in light of new evidence.
 {{< /timeline-event >}}
 {{< timeline-event date="2021" title="Julian Blümke joined the research group" img="people/julian.jpg" >}}
-Doctoral researcher **Julian** works in the project [REBORN](https://reborn-project.eu/) where he is focused on developing a security architecture for a battery system, both for communication within the battery and for the interface between the battery and a cloud server, as well as the secure transition of the battery management system from its first to its second life. What surprised him most about working in research is how much of his time goes into communication and persuasion, convincing stakeholders outside the security sector of the necessity of security features. He would advise anyone starting out to get their academic tool chain clear and set up before diving into their work. And when it comes to research, he keeps in mind that all that glitters is not gold.
+Doctoral researcher **Julian** works on the project [REBORN](https://reborn-project.eu/) where he is focused on developing a security architecture for a battery system, both for communication within the battery and for the interface between the battery and a cloud server, as well as the secure transition of the battery management system from its first to its second life. What surprised him most about working in research is how much of his time goes into communication and persuasion, convincing stakeholders outside the security sector of the necessity of security features. He would advise anyone starting out to get their academic tool chain clear and set up before diving into their work. And when it comes to research, he keeps in mind that all that glitters is not gold.
 
 **His research as a film genre**: A mix of documentary, drama, tragedy, comedy, and hopefully something with a happy ending.
 {{< /timeline-event >}}
 {{< timeline-event title="Jakob Löw joined the research group" img="people/jakob.jpg" >}}
-**Jakob** [eSiLa](https://www.esila.bayern/)
+
 {{< /timeline-event >}}
 {{< timeline-event date="2023" title="Professor Patrizia Heinl joined the research group" img="people/patrizia.webp" >}}
 **Professor Heinl**
@@ -52,13 +54,13 @@ Doctoral researcher **Julian** works in the project [REBORN](https://reborn-proj
 {{< timeline-event title="Vishwa Vasu joined the research group" img="people/vasu.webp" >}}
 **Vishwa Vasu** [eSiLa](https://www.esila.bayern/)
 {{< /timeline-event >}}
-{{< timeline-event title="Claudius Laves joined the research group" img="people/claudi.png" >}}
-**Claudius** works on the EU-funded [iBattMan](https://ibattman.eu/) project as a doctoral researcher, where he develops new cybersecurity concepts for next-generation Battery Management Systems. He is candid about his reservations when it comes to Systematic Literature Reviews, acknowledging that while they are necessary and valuable, he has not warmed up to the method just yet. By nature a night owl, working full-time has taught him to rise early so he can make the most of his afternoons and evenings. When asked what advice he would give his younger self, he laughs off the question, saying it feels like he is still at the beginning himself and hoping his future self will magically appear with some tips.
-
-**The best decision in his academic career**: Taking opportunities and not chickening out.
-{{< /timeline-event >}}
 {{< timeline-event title="Parul Gupta joined the research group" img="people/no-photo.svg" >}}
 **Parul Gupta**
+{{< /timeline-event >}}
+{{< timeline-event title="Claudius Laves joined the research group" img="people/claudi.png" >}}
+**Claudius** works on the EU-funded [iBattMan](https://ibattman.eu/) project as a doctoral researcher, where he develops new cybersecurity concepts for next-generation Battery Management Systems. He is candid about his reservations when it comes to Systematic Literature Reviews, acknowledging that while they are necessary and valuable, he has not warmed up to the method just yet. By nature a night owl, working full-time has taught him to rise early so he can make the most of his afternoons and evenings. When asked what advice he would give his younger self, he laughs off the question, saying it feels like he is still at the beginning of his academic career himself and hoping his future self will magically appear with some tips.
+
+**The best decision in his academic career**: Taking opportunities and not chickening out.
 {{< /timeline-event >}}
 {{< timeline-event title="Prof. Dr. Thomas Hutzelmann joined the research group" img="people/thomas.webp" >}}
 **Professor Hutzelmann**
