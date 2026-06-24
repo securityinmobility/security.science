@@ -46,18 +46,20 @@ Doctoral researcher **Julian** works on the project [REBORN](https://reborn-proj
 
 {{< /timeline-event >}}
 {{< timeline-event date="2023" title="Professor Patrizia Heinl joined the research group" img="people/patrizia.webp" >}}
-**Professor Heinl**
+
 {{< /timeline-event >}}
 {{< timeline-event date="2024" title="Lukas Eder joined the research group" img="people/no-photo.svg" >}}
 **Lukas Eder** [eSiLa](https://www.esila.bayern/)
 {{< /timeline-event >}}
 {{< timeline-event title="Vishwa Vasu joined the research group" img="people/vasu.webp" >}}
-Doctoral researcher **Vasu** also works on the [eSiLa](https://www.esila.bayern/) project, where he investigates how the ISO 15118 communication interface between electric vehicles and charging infrastructure can be attacked, monitored, and hardened. As a former SOC analyst, he brings a practical perspective to his research that helps him understand security problems on a deeper level. He did not expect communication and patience to play such a central role in his work, as research rarely moves in a straight line. His advice is to document everything from the beginning, because the path to a result matters just as much as the result itself, which is also why he thinks negative results and failed experiments deserve more recognition. He adds that cybersecurity is ultimately about more than attacks and tools, as the most interesting problems tend to appear where technology and human decisions meet.
+Doctoral researcher **Vasu** also works on the [eSiLa](https://www.esila.bayern/) project, where he investigates how the communication interface between electric vehicles and charging infrastructure can be attacked, monitored, and hardened. As a former SOC analyst, he brings a practical perspective to his research that helps him understand security problems on a deeper level. He did not expect communication and patience to play such a central role in his work, as research rarely moves in a straight line. His advice is to document everything from the beginning, because the path to a result matters just as much as the result itself, which is also why he thinks negative results and failed experiments deserve more recognition. He adds that cybersecurity is ultimately about more than attacks and tools, as the most interesting problems tend to appear where technology and human decisions meet.
 
 **What keeps him awake at night:** How many small decisions shape the direction of a life, rather than a single big event. A chain of tiny questions that suddenly feel very important when everything is quiet.
 {{< /timeline-event >}}
-{{< timeline-event title="Parul Gupta joined the research group" img="people/no-photo.svg" >}}
-**Parul Gupta**
+{{< timeline-event title="Parul Gupta joined the research group" img="people/parul.png" >}}
+As a doctoral researcher, **Parul** leads the cybersecurity work package of [DevGPT](https://www.thi.de/forschung/aimotion/researchaimotion/forschungsprojekte/devgpt/), working on automated secure code generation. She believes that careful thinking, honest uncertainty, and well-documented failure deserve more recognition in research, as a large part of the work is learning to ask the right question rather than rushing toward an answer. Very often, someone else's uncertainty opens a perspective you had not considered, which is why staying open, listening carefully, and learning from those around you are skills she now sees as just as essential as technical expertise, as well as resilience. And if she could get rid of one thing, it would not be a tool or method, but the phrase "this should be straightforward," which in her experience is precisely when hidden assumptions and unexpected challenges appear.
+
+**The most surprising insight from her work**: Research problems are a bit like IKEA furniture. At first everything looks manageable, but halfway through something does not fit, a part seems to be missing, and you find yourself questioning your life choices.
 {{< /timeline-event >}}
 {{< timeline-event title="Claudius Laves joined the research group" img="people/claudi.png" >}}
 **Claudius** works on the EU-funded [iBattMan](https://ibattman.eu/) project as a doctoral researcher, where he develops new cybersecurity concepts for next-generation Battery Management Systems. He is candid about his reservations when it comes to Systematic Literature Reviews, acknowledging that while they are necessary and valuable, he has not warmed up to the method just yet. By nature a night owl, working full-time has taught him to rise early so he can make the most of his afternoons and evenings. When asked what advice he would give his younger self, he laughs off the question, saying it feels like he is still at the beginning of his academic career himself and hoping his future self will magically appear with some tips.
@@ -74,7 +76,9 @@ Doctoral researcher **Vasu** also works on the [eSiLa](https://www.esila.bayern/
 **Lea Achter**
 {{< /timeline-event >}}
 {{< timeline-event date="2025" title="Henning Ullrich joined the research group" img="people/henning.png" >}}
-**Henning Ullrich** [SQuIRRL](https://osm.hpi.de/squirrl/)
+As a research associate in the group, **Henning** works on [SQuIRRL](https://osm.hpi.de/squirrl/), a project investigating the integration of Quantum Key Distribution in highly dynamic environments, where he focuses specifically on the automotive domain. If he could get rid of one method, it would be requirement engineering, as he sees the value in it but finds the process of writing requirements down meticulous and time-intensive. His advice for his younger self would be to do more things together with fellow students, because learning alongside others is always easier. And to settle in one place for a little longer rather than moving across Germany quite so much.
+
+**Skills he did not expect to need**: Proper organisation and documentation of thoughts and ideas, which has turned out to be more demanding than expected.
 {{< /timeline-event >}}
 {{< timeline-event title="Virginia Schellenberg joined the research group" img="people/virginia.jpg" >}}
 **Virginia** is a research associate in the group, with KOREA21434 as her main project. In her work, she focuses on LLM-based multi-agent systems, applying them both to the automated penetration testing of vehicles and to the implementation of a RAG system using AI agents. She did not expect communication skills and a confident presence to play such a significant role in her day-to-day work, but has come to see them as just as important as technical expertise. Looking back, she considers completing her Master's directly after her Bachelor's one of the best decisions she made, as it kept her momentum going. What she did not anticipate, however, is how quickly three years will probably go by when working on a dissertation.
