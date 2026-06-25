@@ -10,13 +10,11 @@ Welcome to the blog of the Security in Mobility research group.
 
 In this first post, we present our current team and give you a few insights into who we are and what we work on. But before we introduce each member individually, let us start with a look at the group as a whole.
 
-Our group is part of the [CARISSMA C-ECOS Institute](https://www.thi.de/forschung/carissma/c-ecos/) at the THI  and focuses on cybersecurity in the automotive domain. As modern vehicles grow increasingly connected and rely on ever more complex software systems, the potential attack surface expands accordingly, posing significant challenges to manufacturers, suppliers, and end users alike. Our research addresses these challenges by investigating how security vulnerabilities can be systematically identified and mitigated across the full development and product lifecycle of a vehicle. 
-
-<!-- TODO: kurz erwähnen, welche methoden/tools/fokus wir dabei nutzen/haben -->
+Our group is part of the [CARISSMA C-ECOS Institute](https://www.thi.de/forschung/carissma/c-ecos/) at the THI  and focuses on cybersecurity in the automotive domain. As modern vehicles grow increasingly connected and rely on ever more complex software systems, the potential attack surface expands accordingly, posing significant challenges to manufacturers, suppliers, and end users alike. Our research addresses these challenges by investigating how security vulnerabilities can be systematically identified and mitigated across the full development and product lifecycle of a vehicle.
 
 ---
 
-Our group currently consists of 15 members, including 12 researchers and three professors. In the following, we give you an overview of the projects our researchers are working on and the academic backgrounds our members bring to the group.
+Our group currently consists of 15 members, including 12 researchers and three professors. In the following, we want to give you an overview of the projects our researchers are working on and the academic backgrounds our members bring to the group.
 
 {{< full-image img="statistics/projects.png" height="1rem" >}}
 
@@ -28,10 +26,12 @@ Having introduced the group as a whole, we would now like to give each of our me
 
 {{< timeline >}}
 {{< timeline-event date="2019" title="Prof. Dr.-Ing. Hans-Joachim Hof founded the research group" img="people/achim.webp" >}}
-The THI Cybersecurity Research Group was founded by **Professor Hof** at the THI.
+
 {{< /timeline-event >}}
 {{< timeline-event title="Dominik Bayerl joined the research group" img="people/no-photo.svg" >}}
+Doctoral researcher **Dominik** works on a THI-funded project for Automotive Software Security and is partly involved in the Infasec project for Automotive Forensics. In his PhD, he focuses on improving static binary analysis using modern methods such as machine learning and Large Language Models. A self-declared night owl, he has not made peace with early mornings, which leaves him plenty of time at night to ponder questions such as why platypuses have no stomach. And if you ever find yourself with some spare time, ask him why siphons must be ventilated, he could go on for hours, unprompted.
 
+**The most surprising insight from his work**: The best papers often start with a very simple idea or setup.
 {{< /timeline-event >}}
 {{< timeline-event title="Tina Volkersdorfer joined the research group" img="people/tina.webp" >}}
 In her project [PLIADES](https://www.pliades-project.eu/), doctoral researcher **Tina** focuses on security and privacy challenges, including traceability, threat analysis and risk assessment, and identity management across data spaces. Her PhD research extends this further, exploring how threat analysis for automotive risk assessment can be made more efficient and less prone to subjective interpretation. She believes that the most important habits a researcher can develop are simply getting started, discussing results regularly with a supervisor, and actively seeking feedback. At the same time, she has come to recognize that research can be hindered from the outside, whether by stakeholders withholding relevant data or by a lack of transparency in peer review.
@@ -44,7 +44,9 @@ Doctoral researcher **Julian** works on the project [REBORN](https://reborn-proj
 **His research as a film genre**: A mix of documentary, drama, tragedy, comedy, and hopefully something with a happy ending.
 {{< /timeline-event >}}
 {{< timeline-event title="Jakob Löw joined the research group" img="people/jakob.jpg" >}}
+**Jakob** is a doctoral researcher in the group and works on the [eSiLa](https://www.esila.bayern/) project, where he focuses on the cybersecurity of communication between electric vehicles and charging stations. Given his research topic, it comes as no surprise that he could talk about ISO15118 for hours. He believes the peer review process at most conferences is not a reliable system for identifying good papers, a view shared by many but rarely said out loud. When it comes to advice for his younger self, he keeps it simple: find a topic you enjoy, for example charging stations. The best decision of his academic career was choosing the Applied Research Master over a conventional Computer Science Master.
 
+**The tool he would abolish immediately**: Authega.
 {{< /timeline-event >}}
 {{< timeline-event date="2023" title="Professor Patrizia Heinl joined the research group" img="people/patrizia.webp" >}}
 **Professor Heinl** holds an Assistant Professorship within the structured doctoral track. Her research focuses on the security of artificial intelligence (AI), with a current emphasis on AI-assisted applications in healthcare. She currently teaches courses, primarily focused on the intersection of cybersecurity and artificial intelligence alongside seminars and a practical lab. Beyond teaching, Professor Heinl actively shapes her research field through grant proposals, international conference presentations, and close collaboration with partners from academia, industry, and clinical practice. Her transfer work includes building the Digital Medicine Lab and creating formats that bring different stakeholders together to exchange knowledge, structure emerging topics, and identify practical requirements. One of the most important decisions in her academic career was founding the German Informatics Society (GI) working group on Digital Security in Healthcare. The group brings together people from different disciplines and creates a space for discussion, collaboration, and the development of new practical relevant research ideas. This exchange reflects what she values most in research: every new insight opens up further questions, and this constant process of discovery is what keeps the work meaningful and engaging.
@@ -72,7 +74,7 @@ As a doctoral researcher, **Parul** leads the cybersecurity work package of [Dev
 **The best decision in his academic career**: Taking opportunities and not chickening out.
 {{< /timeline-event >}}
 {{< timeline-event title="Prof. Dr. Thomas Hutzelmann joined the research group" img="people/thomas.webp" >}}
-**Professor Hutzelmann**
+
 {{< /timeline-event >}}
 {{< timeline-event title="Julienne Eder joined the research group" img="people/julie.jpg" >}}
 Research associate **Julienne** works on the INFASEC project, where she develops an AI-assisted tool for creating accident reports, with a particular focus on the bias that can influence such assessments. A skill she did not expect to need in her work as much is economic thinking. She believes that AI should not be deployed without careful consideration of its societal implications, a perspective that actively shapes her own work and that she engages with critically, given how central AI is to her research. And when it comes to books that have shaped her thinking, she points to Anne of Green Gables by Lucy Maud Montgomery.
@@ -83,7 +85,7 @@ Research associate **Julienne** works on the INFASEC project, where she develops
 **Lea Achter**
 {{< /timeline-event >}}
 {{< timeline-event date="2025" title="Henning Ullrich joined the research group" img="people/henning.png" >}}
-As a research associate in the group, **Henning** works on [SQuIRRL](https://osm.hpi.de/squirrl/), a project investigating the integration of Quantum Key Distribution in highly dynamic environments, where he focuses specifically on the automotive domain. If he could get rid of one method, it would be requirement engineering, as he sees the value in it but finds the process of writing requirements down meticulous and time-intensive. His advice for his younger self would be to do more things together with fellow students, because learning alongside others is always easier. And to settle in one place for a little longer rather than moving across Germany quite so much.
+As a research associate in the group, **Henning** works on [SQuIRRL](https://osm.hpi.de/squirrl/), a project investigating the integration of Quantum Key Distribution in highly dynamic environments, where he focuses specifically on the automotive domain. If he could get rid of one method, it would be requirement engineering, as he sees the value in it but finds the process of writing requirements down meticulous and time-intensive. His advice for his younger self would be to do more things together with fellow students, because learning alongside others is always easier.
 
 **Skills he did not expect to need**: Proper organisation and documentation of thoughts and ideas, which has turned out to be more demanding than expected.
 {{< /timeline-event >}}
