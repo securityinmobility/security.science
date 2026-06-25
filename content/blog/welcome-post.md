@@ -48,6 +48,8 @@ Doctoral researcher **Julian** works on the project [REBORN](https://reborn-proj
 
 **The tool he would abolish immediately**: Authega.
 {{< /timeline-event >}}
+{{< timeline-event date="2022" title="Alumni Prof. Dr.-Ing. Kevin Mayer joined the research group for 2 years" >}}
+{{< /timeline-event >}}
 {{< timeline-event date="2023" title="Professor Patrizia Heinl joined the research group" img="people/patrizia.webp" >}}
 **Professor Heinl** holds an Assistant Professorship within the structured doctoral track. Her research focuses on the security of artificial intelligence (AI), with a current emphasis on AI-assisted applications in healthcare. She currently teaches courses, primarily focused on the intersection of cybersecurity and artificial intelligence alongside seminars and a practical lab. Beyond teaching, Professor Heinl actively shapes her research field through grant proposals, international conference presentations, and close collaboration with partners from academia, industry, and clinical practice. Her transfer work includes building the Digital Medicine Lab and creating formats that bring different stakeholders together to exchange knowledge, structure emerging topics, and identify practical requirements. One of the most important decisions in her academic career was founding the German Informatics Society (GI) working group on Digital Security in Healthcare. The group brings together people from different disciplines and creates a space for discussion, collaboration, and the development of new practical relevant research ideas. This exchange reflects what she values most in research: every new insight opens up further questions, and this constant process of discovery is what keeps the work meaningful and engaging.
  
@@ -98,8 +100,6 @@ As a research associate in the group, **Henning** works on [SQuIRRL](https://osm
 
 
 
-{{< timeline-event date=" November 2022(?)" title="Alumni Prof. Dr.-Ing. Kevin Mayer joined the research group for 2(?) years" >}}
-{{< /timeline-event >}}
 {{< timeline-event date=" March 2021(?)" title="Alumni Marco Michl joined the research group for 4(?) years" >}}
 {{< /timeline-event >}}
 {{< timeline-event date="March 2023(?)" title="Alumni Jenny Hofbauer joined the research group for 2(?) years" >}}
