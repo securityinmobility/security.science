@@ -84,7 +84,9 @@ Research associate **Julienne** works on the INFASEC project, where she develops
 **Her research as a film genre**: Drama.
 {{< /timeline-event >}}
 {{< timeline-event title="Lea Achter joined the research group" img="people/no-photo.svg" >}}
-**Lea Achter**
+**Lea Achter** is a researcher whose work focuses on the explainability of AI tools and agents in digital vehicle forensics, as part of the INFASEC project. She believes that success in research is less about what you already know and more about how quickly you can learn something new. One thing that has shaped how she thinks about her work is the many women who never made it into textbooks, despite having laid the very foundations we build on today. When she's not working, she describes herself as a night owl, fighting it with varying degrees of success.
+ 
+**Her research as a film genre:** Slow burn romance, requiring patience, but ultimately rewarding.
 {{< /timeline-event >}}
 {{< timeline-event date="2025" title="Henning Ullrich joined the research group" img="people/henning.png" >}}
 As a research associate in the group, **Henning** works on [SQuIRRL](https://osm.hpi.de/squirrl/), a project investigating the integration of Quantum Key Distribution in highly dynamic environments, where he focuses specifically on the automotive domain. If he could get rid of one method, it would be requirement engineering, as he sees the value in it but finds the process of writing requirements down meticulous and time-intensive. His advice for his younger self would be to do more things together with fellow students, because learning alongside others is always easier.
