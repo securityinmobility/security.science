@@ -1,6 +1,7 @@
 +++
 title = "Welcome to our Blog"
 date = "2026-06-22"
+lastmod = "2026-06-22"
 authors = ["Lea Achter", "Virginia Schellenberg"]
 summary = "Every group is made up of people, so what better way to start our blog than with an introduction? In this first post, we present the current team and give you a few insights into our research group."
 +++
@@ -46,10 +47,14 @@ Doctoral researcher **Julian** works on the project [REBORN](https://reborn-proj
 
 {{< /timeline-event >}}
 {{< timeline-event date="2023" title="Professor Patrizia Heinl joined the research group" img="people/patrizia.webp" >}}
-
+**Professor Heinl** holds an Assistant Professorship within the structured doctoral track. Her research focuses on the security of artificial intelligence (AI), with a current emphasis on AI-assisted applications in healthcare. She currently teaches courses, primarily focused on the intersection of cybersecurity and artificial intelligence alongside seminars and a practical lab. Beyond teaching, Professor Heinl actively shapes her research field through grant proposals, international conference presentations, and close collaboration with partners from academia, industry, and clinical practice. Her transfer work includes building the Digital Medicine Lab and creating formats that bring different stakeholders together to exchange knowledge, structure emerging topics, and identify practical requirements. One of the most important decisions in her academic career was founding the German Informatics Society (GI) working group on Digital Security in Healthcare. The group brings together people from different disciplines and creates a space for discussion, collaboration, and the development of new practical relevant research ideas. This exchange reflects what she values most in research: every new insight opens up further questions, and this constant process of discovery is what keeps the work meaningful and engaging.
+ 
+**Her advice to her younger self**: Do not wait for the perfect moment. Stay persistent, share ideas early, and seek feedback from a broad and critical audience.
 {{< /timeline-event >}}
 {{< timeline-event date="2024" title="Lukas Eder joined the research group" img="people/no-photo.svg" >}}
-**Lukas Eder** [eSiLa](https://www.esila.bayern/)
+**Lukas** works as a research associate in the group on the [eSiLa](https://www.esila.bayern/) project, focusing on the IT security of communication between electric vehicles and charging stations during fast charging. His advice for anyone starting out is to do the literature review properly and in depth first, as good solutions to many problems already exist. He considers joining the Security in Mobility research group one of the best decisions of his academic career. If he could get rid of one method, it would be Powerline communication and the SLAC process it necessitates in ISO 15118 charging communication. He points to Deep Work by Cal Newport as a book that has shaped his thinking.
+
+**What he could talk about for hours:** Why battery-electric drives are, and will continue to be, the standard solution for cars and trucks.
 {{< /timeline-event >}}
 {{< timeline-event title="Vishwa Vasu joined the research group" img="people/vasu.webp" >}}
 Doctoral researcher **Vasu** also works on the [eSiLa](https://www.esila.bayern/) project, where he investigates how the communication interface between electric vehicles and charging infrastructure can be attacked, monitored, and hardened. As a former SOC analyst, he brings a practical perspective to his research that helps him understand security problems on a deeper level. He did not expect communication and patience to play such a central role in his work, as research rarely moves in a straight line. His advice is to document everything from the beginning, because the path to a result matters just as much as the result itself, which is also why he thinks negative results and failed experiments deserve more recognition. He adds that cybersecurity is ultimately about more than attacks and tools, as the most interesting problems tend to appear where technology and human decisions meet.
@@ -70,7 +75,9 @@ As a doctoral researcher, **Parul** leads the cybersecurity work package of [Dev
 **Professor Hutzelmann**
 {{< /timeline-event >}}
 {{< timeline-event title="Julienne Eder joined the research group" img="people/julie.jpg" >}}
-**Julienne Eder**
+Research associate **Julienne** works on the INFASEC project, where she develops an AI-assisted tool for creating accident reports, with a particular focus on the bias that can influence such assessments. A skill she did not expect to need in her work as much is economic thinking. She believes that AI should not be deployed without careful consideration of its societal implications, a perspective that actively shapes her own work and that she engages with critically, given how central AI is to her research. And when it comes to books that have shaped her thinking, she points to Anne of Green Gables by Lucy Maud Montgomery.
+
+**Her research as a film genre**: Drama.
 {{< /timeline-event >}}
 {{< timeline-event title="Lea Achter joined the research group" img="people/no-photo.svg" >}}
 **Lea Achter**

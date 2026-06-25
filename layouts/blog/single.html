@@ -4,6 +4,9 @@
   <h1 class="f2 fw6">{{ .Title }}</h1>
   <div class="f6 gray mb4">
     <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+    {{ if ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02") }}
+    <span>· last edited <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2 January 2006" }}</time></span>
+    {{ end }}
     {{ with .Params.authors }}
     <span>· by {{ if gt (len .) 2 }}{{ delimit (sort .) ", " ", and " }}{{ else }}{{ delimit (sort .) " and " }}{{ end }}</span>
     {{ end }}

@@ -13,6 +13,9 @@
     <time class="f6 gray db mb2" datetime="{{ .Date.Format "2006-01-02" }}">
       {{ .Date.Format "2 January 2006" }}
     </time>
+    {{ if ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02") }}
+    <span class="f6 gray db mb2">last edited on <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2 January 2006" }}</time></span>
+    {{ end }}
     {{ with .Params.authors }}
     <span class="f6 gray db mb2">by {{ if gt (len .) 2 }}{{ delimit (sort .) ", " ", and " }}{{ else }}{{ delimit (sort .) " and " }}{{ end }}</span>
     {{ end }}
