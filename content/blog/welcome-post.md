@@ -28,7 +28,7 @@ Having introduced the group as a whole, we would now like to give each of our me
 {{< timeline-event date="2019" title="Prof. Dr.-Ing. Hans-Joachim Hof founded the research group" img="people/achim.webp" >}}
 
 {{< /timeline-event >}}
-{{< timeline-event title="Dominik Bayerl joined the research group" img="people/no-photo.svg" >}}
+{{< timeline-event title="Dominik Bayerl joined the research group" >}}
 Doctoral researcher **Dominik** works on a THI-funded project for Automotive Software Security and is partly involved in the Infasec project for Automotive Forensics. In his PhD, he focuses on improving static binary analysis using modern methods such as machine learning and Large Language Models. A self-declared night owl, he has not made peace with early mornings, which leaves him plenty of time at night to ponder questions such as why platypuses have no stomach. And if you ever find yourself with some spare time, ask him why siphons must be ventilated, he could go on for hours, unprompted.
 
 **The most surprising insight from his work**: The best papers often start with a very simple idea or setup.
@@ -37,6 +37,8 @@ Doctoral researcher **Dominik** works on a THI-funded project for Automotive Sof
 In her project [PLIADES](https://www.pliades-project.eu/), doctoral researcher **Tina** focuses on security and privacy challenges, including traceability, threat analysis and risk assessment, and identity management across data spaces. Her PhD research extends this further, exploring how threat analysis for automotive risk assessment can be made more efficient and less prone to subjective interpretation. She believes that the most important habits a researcher can develop are simply getting started, discussing results regularly with a supervisor, and actively seeking feedback. At the same time, she has come to recognize that research can be hindered from the outside, whether by stakeholders withholding relevant data or by a lack of transparency in peer review.
 
 **Who shaped her thinking the most**: Nutritionist Niko Rittenau and his clear communication of scientific findings and willingness to revise his own positions in light of new evidence.
+{{< /timeline-event >}}
+{{< timeline-event date="2020" title="Alumni Marco Michl joined the research group for 4 years" >}}
 {{< /timeline-event >}}
 {{< timeline-event date="2021" title="Julian Blümke joined the research group" img="people/julian.jpg" >}}
 Doctoral researcher **Julian** works on the project [REBORN](https://reborn-project.eu/) where he is focused on developing a security architecture for a battery system, both for communication within the battery and for the interface between the battery and a cloud server, as well as the secure transition of the battery management system from its first to its second life. What surprised him most about working in research is how much of his time goes into communication and persuasion, convincing stakeholders outside the security sector of the necessity of security features. He would advise anyone starting out to get their academic tool chain clear and set up before diving into their work. And when it comes to research, he keeps in mind that all that glitters is not gold.
@@ -55,7 +57,9 @@ Doctoral researcher **Julian** works on the project [REBORN](https://reborn-proj
  
 **Her advice to her younger self**: Do not wait for the perfect moment. Stay persistent, share ideas early, and seek feedback from a broad and critical audience.
 {{< /timeline-event >}}
-{{< timeline-event date="2024" title="Lukas Eder joined the research group" img="people/no-photo.svg" >}}
+{{< timeline-event date="March 2023(?)" title="Alumni Jenny Hofbauer joined the research group for 2(?) years" >}}
+{{< /timeline-event >}}
+{{< timeline-event date="2024" title="Lukas Eder joined the research group" >}}
 **Lukas** works as a research associate in the group on the [eSiLa](https://www.esila.bayern/) project, focusing on the IT security of communication between electric vehicles and charging stations during fast charging. His advice for anyone starting out is to do the literature review properly and in depth first, as good solutions to many problems already exist. He considers joining the Security in Mobility research group one of the best decisions of his academic career. If he could get rid of one method, it would be Powerline communication and the SLAC process it necessitates in ISO 15118 charging communication. He points to Deep Work by Cal Newport as a book that has shaped his thinking.
 
 **What he could talk about for hours:** Why battery-electric drives are, and will continue to be, the standard solution for cars and trucks.
@@ -83,7 +87,7 @@ Research associate **Julienne** works on the INFASEC project, where she develops
 
 **Her research as a film genre**: Drama.
 {{< /timeline-event >}}
-{{< timeline-event title="Lea Achter joined the research group" img="people/no-photo.svg" >}}
+{{< timeline-event title="Lea Achter joined the research group" img="people/lea.jpeg" >}}
 **Lea Achter** is a researcher whose work focuses on the explainability of AI tools and agents in digital vehicle forensics, as part of the INFASEC project. She believes that success in research is less about what you already know and more about how quickly you can learn something new. One thing that has shaped how she thinks about her work is the many women who never made it into textbooks, despite having laid the very foundations we build on today. When she's not working, she describes herself as a night owl, fighting it with varying degrees of success.
  
 **Her research as a film genre:** Slow burn romance, requiring patience, but ultimately rewarding.
@@ -97,14 +101,6 @@ As a research associate in the group, **Henning** works on [SQuIRRL](https://osm
 **Virginia** is a research associate in the group, with KOREA21434 as her main project. In her work, she focuses on LLM-based multi-agent systems, applying them both to the automated penetration testing of vehicles and to the implementation of a RAG system using AI agents. She did not expect communication skills and a confident presence to play such a significant role in her day-to-day work, but has come to see them as just as important as technical expertise. Looking back, she considers completing her Master's directly after her Bachelor's one of the best decisions she made, as it kept her momentum going. What she did not anticipate, however, is how quickly three years will probably go by when working on a dissertation.
 
 **One advice for her younger self**: Believe in yourself and never give up. Looking back, everything was manageable, even when it did not seem that way at the time. And attend a few more lectures while you can.
-{{< /timeline-event >}}
-
-
-
-
-{{< timeline-event date=" March 2021(?)" title="Alumni Marco Michl joined the research group for 4(?) years" >}}
-{{< /timeline-event >}}
-{{< timeline-event date="March 2023(?)" title="Alumni Jenny Hofbauer joined the research group for 2(?) years" >}}
 {{< /timeline-event >}}
 {{< /timeline >}}
 
