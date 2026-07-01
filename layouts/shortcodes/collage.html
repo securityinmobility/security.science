@@ -7,8 +7,15 @@
     {{ with resources.Get $img }}
       {{ $rot := index $rotations (mod $i (len $rotations)) }}
       {{ $top := index $tops (mod $i (len $tops)) }}
-      <img src="{{ .RelPermalink }}"
-           style="height: 12rem; width: auto; display: block; position: relative; top: {{ $top }}px; transform: rotate({{ $rot }}deg); box-shadow: 2px 4px 12px rgba(0,0,0,0.25); border: 4px solid white;">
+      {{ if eq .MediaType.SubType "svg" }}
+        <img src="{{ .RelPermalink }}"
+             style="height: 12rem; width: auto; display: block; position: relative; top: {{ $top }}px; transform: rotate({{ $rot }}deg); box-shadow: 2px 4px 12px rgba(0,0,0,0.25); border: 4px solid white;">
+      {{ else }}
+        {{ with .Resize "720x webp picture q90" }}
+          <img src="{{ .RelPermalink }}"
+               style="height: 12rem; width: auto; display: block; position: relative; top: {{ $top }}px; transform: rotate({{ $rot }}deg); box-shadow: 2px 4px 12px rgba(0,0,0,0.25); border: 4px solid white;">
+        {{ end }}
+      {{ end }}
     {{ end }}
   {{ end }}
 </div>
