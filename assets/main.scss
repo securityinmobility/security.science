@@ -46,5 +46,30 @@ h1, h2, h3, h4, h5 {
 }
 
 .cryptedmail:after {
-  content: attr(data-name) "@" attr(data-domain) "." attr(data-tld); 
+  content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
+}
+
+.collage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+
+  img + img {
+    margin-left: -0.5rem;
+  }
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+}
+
+.timeline-text > p:first-child {
+  margin-top: 0;
+}
+
+.timeline-text > p:last-child {
+  margin-bottom: 0;
 }
