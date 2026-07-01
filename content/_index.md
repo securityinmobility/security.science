@@ -63,7 +63,7 @@ The goal is to consider IT security across the entire development and product li
     <a href="https://www.linkedin.com/in/vishwa-vasu"><img src="icons/linkedin.svg" alt="linkedin icon" style="height: 2em" /></a>
 {{< /profile-card >}}
 
-{{< profile-card name="Parul Gupta" img="people/no-photo.svg" affiliation="Code Security using AI" >}}
+{{< profile-card name="Parul Gupta" img="people/parul.png" affiliation="Code Security using AI" >}}
     <a href="https://orcid.org/0009-0009-7414-1360"><img src="icons/file-lines-solid.svg" alt="file icon" style="height: 2em" /></a>
     <a href="https://github.com/parulgupta182"><img src="icons/github.svg" alt="github icon" style="height: 2em" /></a>
     <a href="https://www.linkedin.com/in/parulgupta182"><img src="icons/linkedin.svg" alt="linkedin icon" style="height: 2em" /></a>
