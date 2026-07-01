@@ -1,7 +1,7 @@
 +++
 title = "Welcome to our Blog"
-date = "2026-06-22"
-lastmod = "2026-06-22"
+date = "2026-07-01"
+lastmod = "2026-07-01"
 authors = ["Lea Achter", "Virginia Schellenberg"]
 summary = "Every group is made up of people, so what better way to start our blog than with an introduction? In this first post, we present the current team and give you a few insights into our research group."
 +++
@@ -10,7 +10,7 @@ Welcome to the blog of the Security in Mobility research group.
 
 In this first post, we present our current team and give you a few insights into who we are and what we work on. But before we introduce each member individually, let us start with a look at the group as a whole.
 
-Our group is part of the [CARISSMA C-ECOS Institute](https://www.thi.de/forschung/carissma/c-ecos/) at the THI  and focuses on cybersecurity in the automotive domain. As modern vehicles grow increasingly connected and rely on ever more complex software systems, the potential attack surface expands accordingly, posing significant challenges to manufacturers, suppliers, and end users alike. Our research addresses these challenges by investigating how security vulnerabilities can be systematically identified and mitigated across the full development and product lifecycle of a vehicle.
+Our group is part of the [CARISSMA C-ECOS Institute](https://www.thi.de/forschung/carissma/c-ecos/) at the THI  and focuses on cybersecurity in the automotive domain. As modern vehicles grow increasingly connected and rely on ever more complex software systems, the potential attack surface expands accordingly, posing significant challenges to manufacturers, suppliers, and end users alike. Our research primarily addresses these challenges by investigating how security vulnerabilities can be systematically identified and mitigated across the full development and product lifecycle of a vehicle.
 
 ---
 
@@ -57,7 +57,7 @@ Doctoral researcher **Julian** works on the project [REBORN](https://reborn-proj
  
 **Her advice to her younger self**: Do not wait for the perfect moment. Stay persistent, share ideas early, and seek feedback from a broad and critical audience.
 {{< /timeline-event >}}
-{{< timeline-event date="March 2023(?)" title="Alumni Jenny Hofbauer joined the research group for 2(?) years" >}}
+{{< timeline-event title="Alumni Jenny Hofbauer joined the research group for 2 years" >}}
 {{< /timeline-event >}}
 {{< timeline-event date="2024" title="Lukas Eder joined the research group" >}}
 **Lukas** works as a research associate in the group on the [eSiLa](https://www.esila.bayern/) project, focusing on the IT security of communication between electric vehicles and charging stations during fast charging. His advice for anyone starting out is to do the literature review properly and in depth first, as good solutions to many problems already exist. He considers joining the Security in Mobility research group one of the best decisions of his academic career. If he could get rid of one method, it would be Powerline communication and the SLAC process it necessitates in ISO 15118 charging communication. He points to Deep Work by Cal Newport as a book that has shaped his thinking.
