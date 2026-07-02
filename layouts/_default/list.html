@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+{{ with .Content }}
+{{.}}
+{{ end }}
+
+<ul class="list pl0">
+  {{ range .RegularPages }}
+  <li class="mb2">
+    <a class="link dark-blue hover-blue" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </li>
+  {{ end }}
+</ul>
+
+{{ end }}
