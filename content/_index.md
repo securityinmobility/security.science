@@ -97,6 +97,7 @@ The goal is to consider IT security across the entire development and product li
 {{< /profile-card >}}
 
 {{< profile-card name="Virginia Schellenberg" img="people/virginia.jpg" affiliation="Agentic Penetration Testing" >}}
+    <a href="https://orcid.org/0009-0009-6952-3153"><img src="icons/file-lines-solid.svg" alt="file icon" style="height: 2em" /></a>
     <a href="https://github.com/vis9494"><img src="icons/github.svg" alt="github icon" style="height: 2em" /></a>
     <a href="https://www.linkedin.com/in/virginia-schellenberg-69ba26363/"><img src="icons/linkedin.svg" alt="linkedin icon" style="height: 2em" /></a>
 {{< /profile-card >}}
