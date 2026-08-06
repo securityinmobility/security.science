@@ -1,7 +1,7 @@
 +++
 title = "THIARA: From Spreadsheet Chaos to Production Code"
-date = "2026-08-04"
-lastmod = "2026-08-04"
+date = "2026-08-05"
+lastmod = "2026-08-05"
 authors = ["Julian Blümke", "Claudius Laves"]
 summary = "A bachelor class was told to build a TARA tool for ISO/SAE 21434. They shipped an actual open-source app.>"
 +++
