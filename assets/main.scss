@@ -16,7 +16,9 @@ header {
 }
 
 .hero {
-  height: 38rem;
+  /* On phones the heading and subtitle wrap to ~31rem; anything taller just
+     pushes the page content off the first screen. */
+  height: 32rem;
   @media (min-width: 60em) {
     height: 30rem;
   }
@@ -66,10 +68,38 @@ hr {
   border-top: 1px solid #eee;
 }
 
+/* Wide code samples scroll inside their own box. Without this they stretch the
+   document past the device width and the browser zooms the whole page out. */
+pre {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* Bare URLs (e.g. in blog reference lists) are unbreakable words and would
+   otherwise stick out over the right edge on a phone. */
+main {
+  overflow-wrap: break-word;
+}
+
 .timeline-text > p:first-child {
   margin-top: 0;
 }
 
 .timeline-text > p:last-child {
   margin-bottom: 0;
+}
+
+/* Phones only (below Tachyons' 30em "not-small" breakpoint). */
+@media (max-width: 29.99em) {
+  /* The menu padding sat on the <li>, so only the ~17px-tall text of each link
+     was actually tappable. Move it onto the link itself to get a ~44px target
+     without changing how the menu looks. */
+  header nav menu li.dib {
+    padding: 0;
+  }
+
+  header nav menu a {
+    display: inline-block;
+    padding: 0.85rem 1rem;
+  }
 }
