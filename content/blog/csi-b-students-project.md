@@ -8,19 +8,19 @@ summary = "A bachelor class was told to build a TARA tool for ISO/SAE 21434. The
 
 # A Semester-Long Case Study in Automotive TARA Tooling
 
-Take a room of Bachelor's students with wildly different backgrounds. Give them one semester. Ask them to build a complex, production-ready security application from scratch.
+Take a room of Bachelor’s students with wildly different backgrounds. Give them one semester. Ask them to build a complex, production-ready security application from scratch.
 
 They shipped it.
 
 For our Cybersecurity practical project lecture, we set our students a single, ambitious assignment: spend one semester building a real-world tool that solves a genuine pain point in automotive security. No scaffolding, no prepared codebase, no safety net. They organized themselves, chose their stack, and delivered something that works, which is worth documenting as a small case study in what a semester of focused, self-organized student work can actually produce.
 
-Today, that "student assignment" is a fully functioning, open-source project the students built entirely themselves. You can clone it, launch it, and self-host it right now.
+Today, that “student assignment” is a fully functioning, open-source project the students built themselves entirely. You can clone it, launch it, and self-host it right now.
 
 ## Excel Is Not a Security Tool
 
-If you work in automotive cybersecurity, you already know the four-letter acronym that gives system architects night terrors: TARA (Threat Analysis and Risk Assessment).
+If you work in automotive cybersecurity, you already know the four-letter acronym that gives system architects nightmares: TARA (Threat Analysis and Risk Assessment).
 
-Under regulations like UNECE R-155 [1], performing a rigorous TARA isn't optional. It's a mandatory gatekeeper for vehicle type approval. The governing standard, ISO/SAE 21434:2021 [2], lays out a comprehensive, tightly interconnected process for identifying assets, mapping damage, and quantifying attack feasibility.
+Under regulations like UNECE R-155 [1], performing a rigorous TARA isn’t optional. It’s a mandatory gatekeeper for vehicle type approval. The governing standard, ISO/SAE 21434:2021 [2], lays out a comprehensive, tightly interconnected process for identifying assets, mapping damage, and quantifying attack feasibility.
 
 So how does the industry typically execute this complex, highly linked security analysis?
 
@@ -28,13 +28,13 @@ _**Excel.**_
 
 Multi-billion-dollar automotive architectures are routinely assessed using fragile spreadsheet webs, sprawling Word documents, and copy-pasted risk matrices. The practical result is predictable: no overview of dependencies, painful refactoring whenever a single component changes, poor usability, and no structured guidance through the ISO pipeline. Compliance turns into an exercise in wrestling with cells rather than actually finding threats.
 
-Put plainly: Excel is not a security tool.
+To put it in layman’s terms: Excel is not a security tool.
 
 Recognizing this gap, we posed the challenge to our students: design and build a modern, web-based platform that natively implements the ISO/SAE 21434 TARA process from the ground up. Everything from architecture decisions to implementation was left entirely in their hands.
 
 ## Meet THIARA
 
-The students named their tool THIARA, a blend of our institution, THI (Technische Hochschule Ingolstadt), and TARA. (Managing cybersecurity risk, they figured, should feel a bit more like wearing a crown than nursing a headache.)
+The students named their tool THIARA, a combination of our institution, THI (Technische Hochschule Ingolstadt), and TARA. Managing cybersecurity risk, they figured, should feel a bit more like wearing a crown than nursing a headache.
 
 THIARA is an open-source, self-hostable, Docker-first TARA platform, designed and implemented by the students from the ground up. Rather than reaching for a toy tech stack to hit a deadline, they built it on Blazor and .NET, producing a responsive, production-grade web application capable of handling genuinely complex enterprise workflows. No enterprise sales call, no proprietary cloud lock-in. Just infrastructure you control, deployable in minutes.
 
@@ -65,24 +65,24 @@ This wasn't handed to the students as a spec to fill in; the pipeline above is t
 
 ## Built for Real Security Teams
 
-A static, single-user tool misses how modern engineering teams actually operate. We made that a hard requirement from day one: THIARA had to be engineered as a multi-user framework, and the students built it accordingly.
+A single-user tool doesn’t match how modern engineering teams work. From the start, we required THIARA to be a multi-user framework, and the students built it that way.
 
-To reflect real-world organizational structures, where engineers, risk managers, and external auditors all need different touchpoints, THIARA enforces granular permission levels per project:
+To represent real-world organizational structures, where engineers, risk managers, and external auditors all need different touchpoints, THIARA enforces granular permission levels per project:
 
 * **Read (Viewer):** Ideal for external auditors or stakeholder reviews.
 * **Write (Contributor):** For security engineers actively defining assets and threats.
 * **Manage (Lead):** For team leads managing project structures and review states.
 * **Owner (Admin):** Complete control over access control and project lifecycle.
 
-The result doesn't read like an academic toy model. It mirrors, with surprising fidelity, how automotive security engineering actually gets done, and the students are the ones who turned that requirement into a working permission system.
+The result doesn’t read like an academic toy model. It mirrors, with surprising fidelity, how automotive security engineering actually gets done, and the students are the ones who turned that requirement into a working permission system.
 
 ## The Part Excel Cannot Do
 
-Laying out the pipeline is the easy half. The hard half is everything a spreadsheet quietly refuses to do for you, and that's where the students spent most of their semester.
+Laying out the pipeline is the easy half. The hard half is everything a spreadsheet quietly refuses to do for you, and that’s where the students spent most of their semester.
 
-Take the risk value. In a spreadsheet, it's a number somebody types into a cell and then forgets to update. In THIARA, it's derived. A threat scenario inherits the feasibility of its most critical attack path and combines it with the impact rating of the damage scenario above it. Add a nastier attack path to an existing threat six weeks into the analysis, and the risk climbs on its own. Nobody has to remember which cells downstream were supposed to change, which is precisely the refactoring nightmare that makes spreadsheet-based TARAs age so badly.
+Take the risk value. In a spreadsheet, it’s a number somebody types into a cell and then forgets to update. In THIARA, it’s derived. A threat scenario inherits the feasibility of its most critical attack path and combines it with the impact rating of the damage scenario above it. Add a nastier attack path to an existing threat six weeks into the analysis, and the risk climbs on its own. Nobody has to remember which cells downstream were supposed to change, which is precisely the refactoring nightmare that makes spreadsheet-based TARAs age so badly.
 
-The tool also refuses to let you skip steps. A damage scenario cannot be saved without at least one security goal attached, because a damage scenario without a violated security goal isn't a finding; it's a sentence. Small guardrails like this are the difference between a tool that stores your analysis and a tool that keeps it honest.
+The tool also refuses to let you skip steps. A damage scenario cannot be saved without at least one security goal attached, because a damage scenario without a violated security goal isn’t a finding; it’s a sentence. Small guardrails like this are the difference between a tool that stores your analysis and a tool that keeps it honest.
 
 A few other things the students built that are easy to overlook and hard to live without:
 
@@ -93,9 +93,9 @@ A few other things the students built that are easy to overlook and hard to live
 
 ## How They Actually Pulled It Off
 
-A project this size doesn't hold together on enthusiasm alone. What carried it was process, and the students set that process up themselves.
+A project this size doesn’t hold together on enthusiasm alone. What carried it was process, and the students set that process up themselves.
 
-Nothing reached the main branch by accident. Work moved through feature branches and pull requests, each one gated by required reviewers and automated CI checks. A merge triggered a deployment pipeline. The most instructive part, at least from where we were sitting, is what happened to the features that weren't good enough the first time: user management and the registration flow were both torn down and rebuilt across two and three iterations as review feedback landed and the requirements sharpened. Voluntarily rewriting code that already works, because the review says it isn't right yet, is a standard plenty of professional teams never reach.
+Nothing reached the main branch by accident. Work moved through feature branches and pull requests, each one gated by required reviewers and automated CI checks. A merge triggered a deployment pipeline. The most instructive part, at least from where we were sitting, is what happened to the features that weren’t good enough the first time: user management and the registration flow were both torn down and rebuilt across two and three iterations as review feedback landed and the requirements sharpened. Voluntarily rewriting code that already works, because the review says it isn’t right yet, is a standard plenty of professional teams never reach.
 
 By the end, that added up to 58 merged commits from roughly a dozen contributors, a permission system, and a deployment pipeline that still runs today. The code is the visible output. The habits are the part that will outlast the grade.
 
@@ -109,7 +109,7 @@ The architecture, the code, and the decisions behind both belong to the students
 
 ## Try It Yourself
 
-THIARA is open source, and the fastest way to judge any of the above is to run it. Point Docker at a volume and start it. On first launch it prints a one-time registration link to the console instead of shipping with a default admin password, which we consider a reasonable standard for a security tool to hold itself to. From there, the first project is yours.
+THIARA is open source, and the fastest way to judge any of the above is to run it. Point Docker at a volume and start it. On first launch, it prints a one-time registration link to the console instead of shipping with a default admin password, which we consider a reasonable standard for a security tool to hold itself to. From there, the first project is yours.
 
 The repository is public [3]. Stars are nice, issues are better, and pull requests are best. If you're a THI student reading this and wondering whether a semester project can outlive the semester: this one did, and the next commit could be yours.
 
