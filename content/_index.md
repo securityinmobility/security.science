@@ -91,6 +91,7 @@ The goal is to consider IT security across the entire development and product li
 {{< /profile-card >}}
 
 {{< profile-card name="Henning Ullrich" img="people/henning.png" affiliation="Secure Quantum Infrastructure" >}}
+    <a href="https://scholar.google.com/citations?user=T5pjyOMAAAAJ"><img src="icons/google-scholar.svg" alt="google scholar icon" style="height: 2em" /></a>
     <a href="https://orcid.org/0009-0002-3261-6486"><img src="icons/file-lines-solid.svg" alt="file icon" style="height: 2em" /></a>
     <a href="https://github.com/hullrich"><img src="icons/github.svg" alt="github icon" style="height: 2em" /></a>
     <a href="https://www.linkedin.com/in/henning-ullrich-2797b329b/"><img src="icons/linkedin.svg" alt="linkedin icon" style="height: 2em" /></a>
@@ -107,7 +108,7 @@ The goal is to consider IT security across the entire development and product li
 ## Alumni 
 
 <div class="flex flex-wrap">
-{{< profile-card name="Dr. Kevin Mayer" img="people/no-photo.svg" affiliation="Automotive Forensics" >}}
+{{< profile-card name="Prof. Dr. Kevin Mayer" img="people/no-photo.svg" affiliation="Automotive Forensics" >}}
     <a href="https://orcid.org/0000-0002-5597-3913"><img src="icons/file-lines-solid.svg" alt="file icon" style="height: 2em" /></a>
     <a href="https://scholar.google.com/citations?user=z2DJRIkAAAAJ"><img src="icons/google-scholar.svg" alt="google scholar icon" style="height: 2em" /></a>
     <a href="https://kmyr.de/"><img src="icons/globe-solid.svg" alt="globe icon" style="height: 2em" /></a>
