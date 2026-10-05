@@ -26,6 +26,10 @@ A common thread runs through most of these attacks. They work far better, or onl
 
 That leads straight to an empirical question that nobody had answered at national scale: how often is the protection that already exists in the standard actually switched on?
 
+{{< full-image img="blog/charging-station-tls/supercharger-sniffing.jpg" >}}
+
+*Earlier work: listening in on a real charging session between our test vehicle and a Tesla Supercharger.*
+
 ## Testing 40,000 Chargers Without Visiting 40,000 Chargers
 
 Germany has more than 40,000 CCS fast-charging points. Driving to every single one with a test device is not an option. We needed a way to test a few dozen and still say something meaningful about the rest.
@@ -75,6 +79,14 @@ To test a charger, you have to convince it that a car is plugged in. We built a 
 The software plays the role of the car. It goes through the powerline pairing (SLAC), service discovery, the optional TLS handshake and protocol negotiation for DIN SPEC 70121, ISO 15118-2 and ISO 15118-20. Each station goes through several test cycles: one where the "car" insists on TLS, and others that probe which charging protocols the station supports and which one it prefers.
 
 All the information we need is exchanged before any energy transfer starts. The device stops the session at that point, so the charger never puts voltage on the cable.
+
+{{< full-image img="blog/charging-station-tls/testing-device.jpg" >}}
+
+*The testing device: a Raspberry Pi and powerline modem in a clear box, a Type 2 plug with signal wires only, and a power bank. Here it sits inside a CCS charging connector.*
+
+{{< full-image img="blog/charging-station-tls/field-test-enbw.jpg" >}}
+
+*Field testing at a Shell Recharge station operated by EnBW. The car only serves as a desk; the charger talks to the device in the trunk.*
 
 ## The Results
 
