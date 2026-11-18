@@ -69,7 +69,7 @@ The goal is to consider IT security across the entire development and product li
     <a href="https://www.linkedin.com/in/parulgupta182"><img src="icons/linkedin.svg" alt="linkedin icon" style="height: 2em" /></a>
 {{< /profile-card >}}
 
-{{< profile-card name="Lukas Eder" img="people/no-photo.svg" affiliation="Automated Pentesting using AI" >}}
+{{< profile-card name="Lukas Eder" img="people/no-photo.svg" affiliation="Security of Charging Stations" >}}
     <a href="https://github.com/eder-lukas"><img src="icons/github.svg" alt="github icon" style="height: 2em" /></a>
 {{< /profile-card >}}
 
